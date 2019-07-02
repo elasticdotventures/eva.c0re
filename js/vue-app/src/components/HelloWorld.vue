@@ -26,17 +26,33 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <h3>SVG Icons</h3>
+    <ul>
+    <li> <menu-icon /></li>
+    <li> <android-icon title="this is an icon!" /></li>
+    </ul>
+
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+// declare SVG icons globally
+// https://www.npmjs.com/package/vue-material-design-icons
+import MenuIcon from "vue-material-design-icons/Menu.vue"
+Vue.component("menu-icon", MenuIcon)
+import AndroidIcon from "vue-material-design-icons/Android.vue"
+Vue.component("android-icon", AndroidIcon)
+
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
 }
 </script>
+
+
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
