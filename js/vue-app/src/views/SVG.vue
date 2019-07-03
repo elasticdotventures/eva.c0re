@@ -18,10 +18,31 @@
 </v-icon>
 
 <h2>Dynamic Example</h2>
-  
-  <span v-for="(i,v) in fa_icons" v-bind:key="i.name">
-    <v-icon :name="v" />
-    {{ v }}
+<v-layout row>
+  <v-flex xs12 offset-sm1>
+    <v-card>
+      <v-toolbar flat>
+          <v-toolbar-title>v-toolbar-title</v-toolbar-title>
+          <v-spacer>v-spacer</v-spacer>
+          <v-btn icon>
+            <v-icon>search</v-icon>
+          </v-btn>
+        </v-toolbar>
+        <v-subheader>v-subhead</v-subheader>
+        <v-container fluid grid-list-sm>
+          <v-layout row wrap>
+            <v-flex v-for="(i,v) in fa_icons" :key="i.name" xs4>
+              <v-icon :name="v" /> 
+              <v-title style="color: #b2bcbd">{{ v }}</v-title>
+            </v-flex>
+          </v-layout>
+        </v-container>
+    </v-card>
+  </v-flex>
+</v-layout>
+
+
+  <span >
   </span>
 
   </div>
