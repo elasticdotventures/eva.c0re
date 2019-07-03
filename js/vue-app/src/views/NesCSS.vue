@@ -75,7 +75,7 @@ https://nostalgic-css.github.io/NES.css/
 
 
 <style>
-@import url("https://unpkg.com/nes.css/css/nes-core.min.css");
+@import url("https://unpkg.com/nes.css/css/nes-core.min.css"); 
 .nes-text, .nes-btn, .nes-ballon {
   font-family: 'Press Start 2P';
 }
