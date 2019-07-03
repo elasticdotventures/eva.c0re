@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> | 
-      <router-link to="/svg">SVG Demo</router-link>
+      <router-link to="/svg">SVG Demo</router-link> | 
+      <router-link to="/Material">Material Test</router-link>
     </div>
     <router-view/>
   </div>
@@ -18,7 +19,8 @@
 
 /* default vue-cli styles */
 #app {
-  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */ 
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif;  */
+  font-family: 'Roboto', Arial, sans-serif; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
   /* text-align: left;
