@@ -23,6 +23,11 @@ export default new Router({
       path: '/svg',
       name: 'svg demo',
       component: () => import('./views/SVG.vue')
+    },
+    {
+      path: '/material',
+      name: 'material tests',
+      component: () => import('./views/Material.vue')
     }
   ]
 })

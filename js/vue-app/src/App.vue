@@ -9,13 +9,20 @@
   </div>
 </template>
 
+
 <style>
+
+/* https://matsp.github.io/material-components-vue/guide/#import-components */
+  @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+  @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* default vue-cli styles */
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */ 
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  -moz-osx-font-smoothing: grayscale; 
+  /* text-align: left;
+  color: #2c3e50; */
 }
 #nav {
   padding: 30px;
