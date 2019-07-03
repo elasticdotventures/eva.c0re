@@ -2,6 +2,7 @@
   <div class="about">
     <h1>This is SVG page</h1>
 
+<h2>Static (Hardcoded) Example</h2>
 <!-- basic -->
 <v-icon name="beer" color="black"/>
 
@@ -16,6 +17,8 @@
   <v-icon name="ban" scale="3" class="alert"/>
 </v-icon>
 
+<h2>Dynamic Example</h2>
+  
   <span v-for="(i,v) in fa_icons" v-bind:key="i.name">
     <v-icon :name="v" />
     {{ v }}
