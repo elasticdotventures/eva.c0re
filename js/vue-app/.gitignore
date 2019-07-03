@@ -3,6 +3,7 @@ node_modules
 /dist
 
 # local env files
+./js/vue-app/package-lock.json
 .env.local
 .env.*.local
 
@@ -19,4 +20,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-*.lock
+
