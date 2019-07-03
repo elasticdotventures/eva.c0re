@@ -30,7 +30,7 @@ export default new Router({
       component: () => import('./views/Material.vue')
     },
     {
-      path: '/nes.css',
+      path: '/nescss',
       name: 'nes.css styles', 
       component: () => import('./views/NesCSS.vue')
     }
