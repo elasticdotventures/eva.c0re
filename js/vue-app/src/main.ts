@@ -2,7 +2,15 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import "vue-material-design-icons/styles.css"
+
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
+Vue.use(Vuetify)
+
+// index.js or main.js
+
+
+// import "vue-material-design-icons/styles.css"
 
 /*
 material-components-vue was highly opinionated on the use of sass. 

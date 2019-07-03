@@ -1,4 +1,15 @@
 <template>
+  <v-app>
+<!--
+  <v-navigation-drawer app></v-navigation-drawer>
+  <v-toolbar app></v-toolbar>
+  <v-content>
+    <v-container fluid>
+      <router-view></router-view>
+    </v-container>
+  </v-content>
+  <v-footer app></v-footer>
+-->
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -8,13 +19,19 @@
     </div>
     <router-view/>
   </div>
+  </v-app>
 </template>
 
 
 <style>
 
+/* 
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+</head>
+*/
 /* https://matsp.github.io/material-components-vue/guide/#import-components */
-  @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+  @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500");
   @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 /* default vue-cli styles */

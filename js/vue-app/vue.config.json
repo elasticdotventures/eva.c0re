@@ -2,8 +2,9 @@
 // For **Vue CLI 3+**, add `vue-awesome` into `transpileDependencies` in `vue.config.js` (or `babel.config.js`) like this:
 module.exports = {
 transpileDependencies: [
-    /\bvue-awesome\b/
-  ]
-
+    /\bvue-awesome\b/,
+    //  Unfortunately vue-cli-3 doesn't automatically bring IE11 compatibility in which you may encounter various errors (such as Symbol is not defined). To assist in resolving these errors you may need to manually add transpileDependencies parameter in vue.config.js
+    /node_modules[/\\\\]vuetify[/\\\\]/
+  ],
 }
   
