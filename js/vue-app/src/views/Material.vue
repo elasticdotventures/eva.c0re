@@ -5,9 +5,6 @@
  <v-app>
 
 
-
-
-
   <h1>Material Design (Vuetify Layout)</h1>
   <a href='https://vuetifyjs.com/en/framework/grid'>https://vuetifyjs.com/en/framework/grid</a>
   <p>

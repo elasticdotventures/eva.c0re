@@ -1,4 +1,7 @@
 import Vue from 'vue'
+
+// vue-cli vuetify plugin. 
+// import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import store from './store'
