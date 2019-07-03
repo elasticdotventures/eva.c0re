@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import './plugins/fontawesome'
 import './plugins/axios'
 
 // vue-cli vuetify plugin. 
