@@ -36,6 +36,8 @@
 </template>
 
 <script lang="ts">
+// https://github.com/kaorun343/vue-property-decorator
+// Component -- https://github.com/vuejs/vue-class-component
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 // declare SVG icons globally

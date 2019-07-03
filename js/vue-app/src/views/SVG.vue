@@ -16,6 +16,10 @@
   <v-icon name="ban" scale="3" class="alert"/>
 </v-icon>
 
+  <span v-for="(i,v) in fa_icons" v-bind:key="i.name">
+    <v-icon :name="v" />
+    {{ v }}
+  </span>
 
   </div>
 </template>
@@ -36,17 +40,26 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
  instead and run ```npm run icons``` to re-generate icon module files.
  */ 
 import 'vue-awesome/icons'
+import IconVue from 'vue-awesome/components/Icon.vue';
 
 // globally (in your main .js file)
 // requiring the UMD module
-var Icon = require('vue-awesome')
-Vue.component('v-icon', Icon)
+var VA_Icon = require('vue-awesome')
+Vue.component('v-icon', VA_Icon)
 
 @Component({
+  /* props: {
+    propMessage: String
+  }, */ 
   components: {
     HelloWorld,
-
   },
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+
+  // https://github.com/vuejs/vetur/issues/261
+  fa_icons = VA_Icon.icons;
+ 
+}
+
 </script>
