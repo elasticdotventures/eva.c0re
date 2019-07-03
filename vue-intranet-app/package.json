@@ -1,0 +1,126 @@
+{
+  "name": "vue-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-material-design-icons": "^3.3.1",
+    "vue-property-decorator": "^8.1.0",
+    "vue-router": "^3.0.3",
+    "vue-svgicon": "^3.2.6",
+    "vuetify": "^1.5.16",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-knobs": "^4.1.0 || ^5.0.0",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addon-notes": "^4.1.0 || ^5.0.0",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/vue": "^5.1.9",
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-typescript": "^3.9.0",
+    "@vue/cli-plugin-unit-jest": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "^0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "ts-jest": "^23.0.0",
+    "typescript": "^3.4.3",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-fontawesome": "^0.2.0",
+    "vue-cli-plugin-storybook": "^0.6.1",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.0.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "vue",
+      "ts",
+      "tsx"
+    ],
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ],
+    "testMatch": [
+      "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
+    ],
+    "testURL": "http://localhost/",
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ],
+    "globals": {
+      "ts-jest": {
+        "babelConfig": true
+      }
+    }
+  }
+}
