@@ -33,7 +33,7 @@
           <v-layout row wrap>
             <v-flex v-for="(i,v) in fa_icons" :key="i.name" xs4>
               <v-icon :name="v" /> 
-              <v-title style="color: #b2bcbd">{{ v }}</v-title>
+              <span style="color: #b2bcbd">{{ v }}</span>
             </v-flex>
           </v-layout>
         </v-container>
