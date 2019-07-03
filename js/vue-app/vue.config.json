@@ -1,0 +1,9 @@
+// If you are using official Vue CLI to create your project and you want to use the untranspiled component (import `vue-awesome/components/Icon` rather than import `vue-awesome` directly, to optimize bundle size, which is recommended), you'll encounter the problem that the default configuration will exclude `node_modules` from files to be transpiled by Babel.
+// For **Vue CLI 3+**, add `vue-awesome` into `transpileDependencies` in `vue.config.js` (or `babel.config.js`) like this:
+module.exports = {
+transpileDependencies: [
+    /\bvue-awesome\b/
+  ]
+
+}
+  
