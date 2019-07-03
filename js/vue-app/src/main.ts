@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import './plugins/axios'
 
 // vue-cli vuetify plugin. 
 // import './plugins/vuetify'
