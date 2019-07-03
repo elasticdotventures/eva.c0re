@@ -4,7 +4,13 @@ import router from './router'
 import store from './store'
 import "vue-material-design-icons/styles.css"
 
+/*
+material-components-vue was highly opinionated on the use of sass. 
+https://sass-lang.com/guide
 
+import Button from 'material-components-vue/dist/button'
+Vue.use(Button)
+*/
 
 Vue.config.productionTip = false
 
