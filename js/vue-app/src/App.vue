@@ -16,6 +16,7 @@
       <router-link to="/about">About</router-link> | 
       <router-link to="/svg">SVG Demo</router-link> | 
       <router-link to="/Material">Material Test</router-link>
+      <router-link to="/Material">NesCSS</router-link>
     </div>
     <router-view/>
   </div>

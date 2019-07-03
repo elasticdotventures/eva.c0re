@@ -28,6 +28,11 @@ export default new Router({
       path: '/material',
       name: 'material tests',
       component: () => import('./views/Material.vue')
+    },
+    {
+      path: '/nes.css',
+      name: 'nes.css styles', 
+      component: () => import('./views/NesCSS.vue')
     }
   ]
 })
