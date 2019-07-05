@@ -1,0 +1,378 @@
+
+#,,,#
+#,,,; To participate in :cake: protocols please sign below; search for your @name.
+#,,,#
+20190423000000 @b --cybEr-signature "--#:rocket::heart::unicorn:/#"
+20190423000000 @fabio --cybEr-signature "#\#"
+20190423000000 @margaret --cybEr-signature "#\#"
+20190423000000 #general
+#,,,;  company operating fund; rain day account; goal: by 2022 have a ~3 year operating budget in reserves
+#,,,;  orders
+#,,,;  inventory
+
+
+
+#,,,#
+#,,,# #general
+#,,,#    /ops --budget #cyberpunks --max 50:cake: --min 10:cake: --period 1st:day: 
+#,,,#    /ops --budget #prototypes --max 50:cake: --min 10:cake: --period 1st:day:
+#,,,#    /ops --eat 50:cake: --to @b --why 
+2019042300000 @b /withdraw #b2bcbd 
+2019042300000 #general /channel #ops --revenue 10%
+2019042300000 #general /channel #ops --revenue 10% ubuntu
+2019042300000 #general /channel #ops --investment #growpotbot --type cash --amount $5000000USD --yei @InvestorX --ownership 5%
+
+
+
+2019010100000 @b /ops-payroll --monthly: $8,333USD --payroll
+2019010100000 @fabio /ops-payroll --monthly: $4,166USD --payroll
+2019010100000 @margaret /ops-payroll --monthly: $4,166USD --payroll
+
+
+2019042300000 @b --monthly: $1500USD
+
+general /channel #ops --revenue 30% ubuntu
+
+
+
+
+general /channel #ops --revenue 30% ubuntu
+
+
+
+
+
+
+
+2019042300000 #ops /focus #ubuntu --focus 10% --payroll 100:USD::monthly:  
+2019042300000 #ops /focus #airstream --focus 5% -- 100:USD::monthly:
+2019042300000 #ops /focus #b2bcbd --focus 15% --coco 100:usd::monthly:
+2019042300000 #ops /focus #growpotbot --focus 15% --coco 100:usd::monthly:
+2019042300000 #ops /focus #capital --focus 15% --coco 100:usd::monthly:
+
+
+2019042300000 #general /channel #pretty --revenue 20%
+2019042300000 #general /channel #prototyping --revenue 10%
+2019042300000 #general /channel #growbot --revenue 10%
+2019042300000 #general /channel #b2bcbd --revenue 10%
+2019042300000 #general /channel #cake 
+
+
+2019042300000 #general /invest --detail "" --from @user
+
+
+
+
+#,,,#
+#,,,# a tick/tock cycle is similiar to the concept of a sprint; 
+#,,,# but with IDPM (Identify, Develop, Perform, Measure) => #ops
+#,,,# future teams will be comprised of one or two groups of smaller charters
+#,,,# coding #channel charters will become a bit of a speciality rigging within the organization
+#,,,# 
+
+
+
+20190423000000 @b /charter #b2bcbd --pledge 1 --channel #ubuntu 10% --why "make a better world"
+20190423000000 @b /charter #b2bcbd --pledge 1 --channel #:cake: 10% --why "fund #elasticadventures #yei" --note "future multicurrency business travel bank fund?:think:"
+20190423000000 @b /charter #b2bcbd --pledge 1 --channel #ops 5% --why "payroll; @margaret"
+#,,,#
+#,,,# $150/mo. for curation; :cake: withdrawl 10% max per month in USD; 05% interest accrued quarterly. 
+#,,,#
+20190423000000 @b /charter #b2bcbd --pledge 1 --channel #pretty --and "see comments" --why "brand and marketing"
+20190423000000 @b /charter #b2bcbd --pledge 1 --channel #pretty 20% --why "brand and marketing"
+
+
+
+
+
+
+#,,,; elastic.ventures
+#,,,; command-grok: @@blockchain.grok
+#,,,; any line that starts with #,,,; is a comment
+#,,,; any line that is misformatted is invalid
+#,,,;
+#,,,; this is the eva.core/blockchain.log file in our repo.
+#,,,; this will be imminently parsable into a score sheet. 
+#
+# @b person (optional; attribution)
+# join: #channel --option file.eno
+#
+# long term each channel can have it's own exchange rate; tick-talk cycles; etc.
+#
+# LOG FORMAT IS:
+# YYYYMMDDHHMMSS /command
+# YYYYMMDDHHMMSS @who /command
+#
+# COMMAND STRUCTURE IS:
+#   @who
+#   /command
+#   subjects[]  (array of non-parsed params)
+#   --param1: "value1"
+#   --param2: @who
+
+#,,,; 
+#,,,; sql: date, player, command
+#,,,;
+
+
+20180101000000 @eva /tick genisys elastic.ventures
+# first board meeting
+# UNCOMMENT THIS TO REMOVE "TICK" (remove on production)
+20181010000000 @eva /initialize --url "http://elastic.ventures"
+
+# FUTURE CONCEPTS:
+# # this command reaches out and asks this bot to assist with the setup of slack.
+# 201810100000000 /install eva@elastic.ventures
+# # this sets up the environment so eva has access; and nobody else does. i.e. "initial firewall rules"
+# 201810100000000 /acl: #channel --firewall-cmd:TICK --deny --except @eva
+
+## Director Grants
+20181010000000 @eva /give @b 10000:cake: --why "founders cake"
+20181010000000 @eva /give @fabio 500:cake: --why "director cake"
+20181010000000 @eva /give @wendy 100:cake: --why "director cake"
+
+## Special considerations go to:
+20181010000000 @eva /give @ken 250:cake: --why "design cake"
+20181010000000 @eva /give @olin 75:cake: --why "electronic cake"
+## 20181010000000 vote --promise-id: P1; --title "good to go?" --choice YESORNO --require:quorum  --yes: "TICK;"
+
+#
+# TODO: other special initialization routines here;
+#   * link to ev-blockchain or "self verify"
+#   * install & initiaized slack bot
+#   * link a domain name using a txt record +trust
+#   * link & setup aws infrastructure +trust
+#20181010 0000001 talk
+#20181010 0000002 @b /join #general --protocol "eva.core/protocols/v1.eno" --admin @b
+#20181010 0000002 @b /join #salespunks --protocol "eva.core/protocols/v1.eno" --admin @b
+#20181010 0000003 @b /set #general --topic "lets get the party started"
+#
+# this blockchain.log is currently updated by hand; script parser in development!
+20181006000000 @b /add :cake: --to @edvard --why "added his profile image"
+20181006000000 @eva /add :cake: --to @edvard --why "added his profile image"
+20181006000000 @eva /add :cake: --to @pj  --why "added his profile pic"
+# TODO
+20181007000000 @b /share 1:rocket: :cake: --to @fabio --why "@github.com/elasticdotventures/eva.core#632d21ce8155c259c3ce3430f2489d5e27ca272c"
+# 20181007000000 @b /add :cake: --to "@linkedin.com/in/jeffgrass" --why "thanks for the encouragement!"
+20181009000000 @b /add :cake: --to @tamara --why "super excited to have you onboard!"
+20181009000000 @b /add :cake: --to @fabio --why "great strategy meeting"
+20181009000000 @b /add :cake: --to @jake --why "great meeting! re: therealinternetblockchain"
+20181009000000 @b /add :cake: --to @dvizma --why "thanks for reaching out and being so positive"
+20181009000000 @b /add :cake: --to @dvizma --why "answering my question(s) about the midi sound modules"
+20181009000000 @b /add :cake: --to @dvizma --why "asking about trumplugs"
+20181009000000 @b /add :cake: --to @dvizma --why "great notes in the GrowPot Component"
+20181009000000 @b /add :cake: --to @jake --why "looking forward to the chat on arbitration"
+
+20181010000000 @b /add :cake: --to @jake --why "great meeting; let's record the next one"
+20181010000000 @b /add :cake: --to @colin --why "nda executed!"
+  
+# UPCOMING - The next TICK; hopefully the parser takes over!
+#20181010000000 @eva /tick ""
+#20181010000001 @eva /say :cake: scoreboard is @b:10000 @fabio:500 @wendy:100 @ken:250 @edvard:2 @pj:1
+#20181010000001 @eva /say :moneybag: scoreboard is 100:moneybag: in #general;; will trade 1:moneybag:==10USD;
+#20181010000001 @eva /say "next tick is scheduled to happen at 20181017 00000"
+
+# TODO: Implement employee ledger account interface
+# TODO: Exchange rates :cake:=>:moneybag:
+# TODO: Exchange need an interface to convert :moneybag:=>paypal.com?user=paypal@elastic.ventures
+20181010000002  /talk ""
+
+
+
+# FUTURE COMMAND: trust  (in development)
+# it links a non-Elastic.Ventures blockchain to ours; then they send
+# money or cryptocoin to eva to access the network and start submitting tasks.
+
+# 20181010 000000 @eva /alias @eva as http://elastic.ventures/assistant offering :moneybag:=#1USD
+20181015000000 @b /add :cake: --to @jake --why "follow up in #nowwithblockchain"
+20181015000000 @b /add :cake: --to @jay --why "phone call"
+20181015000000 @b /add :cake: --to @fabio --why "phone call"
+20181016000000 @b /add :cake: --to @dvizma --why "STM32 and ESP processor recommendations"
+20181017000000 @b /add :cake: --to @shihan --why "great meeting!"
+20181018000000 @b /add :cake: --to @fabio  -- why "great meeting!"
+20181018000000 @b /add :cake: --to @jake --why "great meeting"
+20181018000000 @b /add :cake: --to @jake --why "avatar upload"
+20181018000000 @b /add :cake: --to @jake --why "sharing https://battles.eos.io/main"
+20181018000000 @b /add :cake: --to @fabio --why "strategy meeting"
+20181018000000 @b /add :cake: --to @pj --why "great meeting"
+20181018000000 @b /add :cake: --to @robert --why "got his phone working"
+20181018000000 @robert /share :cake: --to @jake --why "avatar"
+20181018000000 @b /add :cake: --to @dvizma --why "took initiative; signed up for Chirp"
+
+20181019000000 @b /add :cake: --to @colin --why "thanks for the sensor reference. #NPK"
+20181022000000 @b /add :cake: --to @fabio --why "weekend sync up"
+
+20181023000000 @b /add :cake: --to @brianh --why "hit goal: moved; new workshop"
+20181023000000 @b /add :cake: --to @fabio --why "san diego update"
+20181023000000 @b /goal --interval daily --topic @b --what "exceed 275 push ups (close distance to goal)"
+
+20181022500000 @b /add :cake: --to @tamara --why "tyty for the :tacos: presentation!"
+20181022600000 @b /add :cake: --to @wendy --why "being wonderful"
+20181022600000 @b /add :cake: --to @penny --why "great workout"
+20181023000000 @b /wager 10:cake: --to @fabio --what "make 50 #b2bcbd calls by Halloween"
+
+# 2018102400000 spoke with jay and fabio; short meetings - no Internet
+
+20181029000000 @b /add :cake: --to @margaret --why "reviewed frontapp.com"
+20181105000000 @b /add :cake: --to @fabio --why "meeting"
+20181106000000 @b /add :cake: --to @tamara -- why "joining slack; reviewing the ev 2019 presentation"
+20181107000000 @b /add :cake: --to @robert  --why "great meeting"
+20181107000000 @b /add :cake: --to @robert --why "requested access; followed up"
+20181107000000 @b /add :cake: --to @colin --why "great meeting!"
+20181108000000 @b /add :cake: --to @fabio --why "morning meeting"
+20181108000000 @b /add :cake: --to @mike --why "evaluating robovend"
+
+# no cake records; no real progress. 
+
+20181102800000 @b /add :cake: --to @fabio, @margaret --why "reviewing gpb, rv. next steps"
+20181102900000 @b /add :cake: --to @pokey --why "2.2hr meeting; welcome on board!"
+20181102900000 @b /add :cake: --to @robk --why "fantastic meeting"
+20181102900000 @b /add :cake: --to @jake --why "follow up on blockchain network"
+20181102900000 @b /add :cake: --to @brianh --from #nowwithblockchain@jake --why "status/update fantastic meeting with @rob"
+20181102900000 @b /add :cake: --to @shady --why "thanks for the invitation; you were such a gracious host"
+
+# cake
+
+20181102909000 @b /add :cake: --to @pokey --from #general@b --why "join slack"
+20181102909000 @b /add :cake: --to @pokey --from #general@jake --why "join slack"
+# ^^ need a way to attach these to these to same thread -- i.e. thread or message id. 
+
+#,,,# begin; again. journal entries.
+2019042300000 @b /add 150:cake: --to @fabio --from @b --why "#b2bcbd, and others"
+2019042300000 @b /add 150:cake: --to @margaret --from @b --why "#ops, and others"
+2019042300000 @b /add 150:cake: --to @jay --from @b --why "great advsior and partner!"
+2019042300000 @b /add 50:cake: --to @tamara --from @b --why "#shenzhen #travel"
+2019042300000 @b /add 5:cake: --to @pj --from @b --why "thanks for the help with Island Shore"
+2019042300000 @b /add :cake: --to @jasont --from @b --why "boo!"
+2019042300000 @b /add :cake: --to @bigmike --from @b --why "thanks for the late night brainstorming!"
+2019042300000 @b /add :cake: --to @dvizmas --from @b --why "meeting in Shenzhen"
+
+
+20190429000000 @b /add :cake: --to @tamara --from @b --why "introduction to Mikael Lindqvist"
+20190429000000 @b /add :cake: --to @fabio,@margaret --from @b --why "let's start figuring out what we can delegate"
+20190429000000 @b /add :cake: --to @colinh --from @b --why "looking forward to seeing you more in slack."
+
+#,,,# summarize cake
+#,,,# establish accounts
+
+#,,,# internal expeditures
+20190423000000 @b /charter #general --yei @b --from @b --why "general operating account(s)"
+20190423000000 @b /charter #ops --yei @margaret --yei @b --from @b --why "operations" 
+20190423000000 @b /charter #ops --pay #pretty 500
+20190423000000 @b /charter #ops --budget 5000 USD per month.
+#,,,# 
+#,,,# note: I think it is important that each #channel charter have it's own accord as often as necessary.
+#,,,#       trying to a project can't run over it's own budget; give people an incentive to be on winning projects.
+#,,,#	    as far as :cake: goes; at this stage in the company it will be available for full reimbursement as soon as we are funded. 
+#,,,# 	    so :cake: is really a request from EV for "full faith and credit; bank of us" in that we're very committed to the project.
+#,,,#       yei will get there faster with you.  yei will get :cake: later. 
+#,,,#       rah-rah :cheerleading: aside. 
+#,,,#       in some cases we will be contractually obligated to payroll. 
+#,,,#	    as soon as we can get together a company health insurance plan for US people the better' things like that which require
+#,,,# 
+#,,,#       in that it allows us to borrow against future mutual success. 
+#,,,#       I also feel strongly that attribution to various assitances we're going to need contribute to the 
+#,,,#       long term success. So I'd suggest we allocate a portion of the revenue to people working for :cake:
+#,,,#	    yei fund it with profits; as revenue comes in -- there is money there; we can use it; they can withdraw it.
+#,,,#	    just let us know at the end of the quarter; up to 10%. 
+#,,,# 
+
+20190423000000 #b2bcbd --why "cbd sales prospecting"
+20190423000000 #b2bcbd --team @b,@fabio --ownership "50%,50% co-owners"
+20190423000000 #b2bcbd --topic "b2bbros" 
+20190423000000 #b2bcbd --protocol "eva.c0re\protocols\cooperative5050.md" --ownership 50%,50% 
+20190423000000 #b2bcbd --accord b2bcbd-bros --why "from blockchain.log line 188" 
+20190423000000 #b2bcbd --accord b2bcbd-bros --yei @b2bcbd.bros 
+20190423000000 #b2bcbd --accord b2bcbd-bros --role-captain @fabio  --cybEr-signature "#/#"
+20190423000000 #b2bcbd --accord b2bcbd-bros --role-firstmate @b --cybEr-signature "--#:rocket::heart::unicorn:/#" 
+20190423000000 #b2bcbd --accord b2bcbd-bros --role-witness @margaret --ownership 0% --fee $1USD
+20190423000000 #b2bcbd --accord b2bcbd-bros --role-witness @margaret cybEr-signature --#/#
+#,,,# the witness is required in any contract; this could be a person or process i.e. "cointoss.eno"
+20190423000000 @b /charter #b2bcbd --accord b2bbros --default role-witness --protocol #eva.c0re\protocols\cointoss.eno
+#,,,# note: the .c0re is intentional; allowing us to work later on .c1re .c2re .cr3e, etc. 
+
+20190423000000 @b /charter #b2bcbd --yei b2bbros --share 10:cake: --channel #ubuntu --why "better tomorrow"
+20190423000000 @b /charter #b2bcbd --yei b2bbros --share 10:cake: --channel #general --why "yei attribution"
+20190423000000 @b /charter #b2bcbd --yei b2bbros --share 10:cake: --channel #ops --why "paying the bills"
+20190423000000 @b /charter #b2bcbd --yei b2bbros --share 30:cake: --channel #pretty --why "advertising spend & marketing material"
+#,,,# -- we let #pretty pay @pokey; they can bill us back for the time? how does this work?
+#,,,#    like #pretty needs a charter with @pokey
+
+#,,,# personal details (please add yours)
+20190423000000 @EVA --yei @pokey --email:"mikep@pokeydomain.com"
+20190423000000 @b /add :cake: --to @pokey --why "2.2hr meeting; welcome on board!"
+20190423000000 @EVA --yei @b --email:"b@elastic.ventures"
+20190423000000 @EVA --yei @b --phone:"+1-347-708-3850"
+20190423000000 @EVA --yei @b --whatsapp:"+1-347-708-3850"
+20190423000000 @EVA --yei @b --facebook:"brian.horakh" --inactive
+
+#,,,# #pretty charter
+20190423000000 @b /charter #pretty --channel #pretty
+20190423000000 @b /charter #pretty --yei #pretty --share 10 --channel #ops
+
+20190423000000 @b /charter #b2bcbd --yei b2bbros --execute b2bbros --in #b2bcbd;
+
+
+#,,,#
+#,,,# the commands above will create a json object that looks like this:
+#,,,#    yei { id:"@b" }
+#,,,#    channel : { "#b2bcbd" : b2bcbd(){ why:"__", team:[ "@b","@fabio" ], ownership: "__", yei:"b2bcbd.bros", "model" }
+#,,,#    
+#,,,# 
+
+#,,,#
+#,,,# ultimately I would like the sales orders to be entered here; perhaps via a spreadsheet
+#,,,# 
+
+#,,,# margaret is probably underpaid in this role :rofl: but it's hard to value it; so we start there. not expecting to need this.
+20190423000000 @b /charter #b2bcbd --accord b2bbros --witness @margaret --ownership 0% --fee $1USD@1YR --signature #/#
+#,,,# what we just said there is that this contract would now need to be agreed upon by margaret.
+#,,,# in pirate parlance yei @fabio would put yei mark below; X/X
+20190423000000 @b /charter #b2bcbd --accord b2bbros  --signature --#/#
+
+#,,,# 
+#,,,# and if she does that; then this contract is now witness
+
+
+20190423000000 @b /charter #b2bcbd --arbtieryei --b2bcbd.bros --crew @b,@fabio --ownership 50%,50% --witness @margaret
+
+#,,,# the cycle for a block chain is as follows; we can actually just keep it here in libraries.
+#,,,# each channel declares it's own tick/tock cycle; i.e. "seasons of the business"; "cycles of the business"
+#,,,# every channel has three numeric balances which are recomputed every tick/tock cycle
+#,,,#  
+20190424000000 #ops begin  --why "main #ops"
+#,,,# operating account (order of priority)
+
+#,,,# PRIORITY 1:
+#,,,#    #ops-finance   pay loan balances, court orders, government filings, financial agreements
+20190424000000 #ops /xero --create "#ops-finance"
+
+#,,,# PRIORITY 2:
+#,,,#    #ops-riggers   pay 3rd party contractors doing work for us (meet minimum obligations)
+20190424000000 #ops /xero --create "#ops-riggers"
+
+#,,,# PRIORITY 3:
+#,,,#    #ops-materials   purchase materials
+20190424000000 #ops /xero --create "#ops-materials"
+
+#,,,# PRIORITY 4:
+#,,,#    #ops-hr    pay employees (1 cake)
+20190424000000 #ops /xero --create "#ops-hr"
+
+#,,,# PRIORITY 5:
+#,,,#    #ops-puff  investors and stuff  (1 cake)
+20190424000000 #ops /xero --create "#ops-puff"
+
+
+
+
+#,,,# /journal 
+#,,,# begin :cake:
+20190424000000 @b /charter #b2bcbd --pledge 1 --channel #pretty
+
+
+
+
+
+
+
