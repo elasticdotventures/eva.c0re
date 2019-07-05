@@ -1,39 +1,38 @@
 # eva.c0re repo
-🚀EV Public c0re
 
+## 🚀EV Public c0re dump
 
 😁 this repository will *eventually* hold all public artificats, 
 components, public facing documentation of http://Elastic.Ventures
 
-# Emoji Symbology
+# Emoji Symbology 
 * 🚀 :rocket: @b's comments/opinions (highly opinionated, not gospel)
 * 🤓 :nerd: means extra credit; or attribution reference (not required reading)
 * 🍫 :chocolate: Windows / Chocolately installer instructions 
 * 🍎 :apple: MacOS Notes
-* 🐧 :penguin: Linux Notes 
-* ⛔ :stop: hints how to fix problems in earlier commands ^^^ (means above)
-
-
+* 🍰 :cake: is a tracking and reward incentivization system ("contributor points")
+* .. please see jargon.md for more
 
 # 🍰👇 Please help improve this documentation!!
 
-🚀 I'm looking for ways to simplify this process; feel free to add your own notes.
+🚀 Yei'r looking for ways to simplify this process; feel free to add notes. 
 
 🤓 This README.md is in MarkDown format: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
 
 🚀 Also; VSCode has a markdown plugin CTRL+SHIFT+V split window mode for realtime formatting as yei write markdown. 
 
-# What is this?
+# What is this repo.
 
-Broadly the pre-release development versions of EV tech; as well as instructions how to setup \ the development environment; and all files for testing. 
+Broadly the pre-release development versions of EV tech; as well as instructions how to setup 
+our development environment; and all files for testing.  This is the "pre-release" channel. 
 As we develop new tools they will be included in this repo.
 
-# Slack _channel (NOT #channel😉)
-🚀 EV slack channel will have a _channel directory inside eva.c0re repo. 
+# Slack _Channel (NOT #channel😉)
+🚀 EV slack channels will use a _Channel directory inside eva.c0re repo. 
 
 
 ## # Hash is for Comments; NOT Channels.
-🚀 underscore _channel syntax inside github is more resilient
+🚀 underscore _Channel syntax inside github is more resilient
 
 🤓 Hashtag (#) is the reserved character for a comment in Unix. 
 A hash-mark means ignore everything after the # in URLs as well.  As such hashtags introduces significant diagnostic challenges when something doesn't work
@@ -108,45 +107,143 @@ To access the vue-intranet-app here are the basic requirements/instructions
 please see how far you can get; For  (Windows) yei'r going to use Chocolately 
 https://chocolatey.org/ which provides the `choco install package`  or `choco uninstall package` commands. 
 
-🍎 For MacOS/Linux; .. tbd. 
+🍎 For MacOS/Linux; .. ?? 🤔
 
-## Useful files:
-+ jargon.md is the glossary to EV vocabulary. 
+🚀 !!todo should 🍰 be in the repo?  (public disclosure🤔)
 
-## _channels
-+ [_general](_general/README.md)
-+ [_pretty](_pretty/README.md)
-    + [assets](_pretty/assets) 
-+ [_dataphiles](_datafiles/README.md) -- in development
-+ [_cyberpunks](_cyberpunks/README.md)  -- in development
+# Most resources are organized by _Channel
 
-# vue-intranet-app
-🚀 I don't have these files served anyplace beyond github yet; still in development.  
++ [_general](_general/README.md) 
+    + [jargon.md](_general/jargon.md) is the glossary to EV vocabulary. 
+    + [:cake:](_general/cake-help.md) help &amp; EV [blockchain.log](_general/blockchain.log)
+    + [staff](_general/staff) 👈GET 🍰🙏 UPLOAD AVATAR [HERE](_general/staff)👈
++ [_thinking_culture](_thinking_culture/README.md) 
+    + 👆 teaching #human to study better; practice toward mastery. 
+    + 🚀 spend a bit of time going through this material. 
 
-# How to Clone this Repo
-```
-git clone git@github.com:elasticdotventures/eva.c0re.git 
-```
-🤓 create a project using `mkdir ~/projects` then `cd ~/projects` then type the command above. Take a few moments to add shortcut links in windows. 
+## design files & assets
++ [_pretty](_pretty/README.md) #pretty readme
+    + [fonts](_pretty/fonts) .woff, .ttf
+    + [img](_pretty/img) .png, .jpg, .gif
+      + [stock](_pretty/stock) 
+      + [backgrounds](_pretty/backgrounds) 
+      + [logos](_pretty/logos) 
+      + 🚀 ^^^ very handy for presentations!
 
-# 🍫 Selecting a command prompt/shell 
-🚀 NOTE most GIT will be done inside of visual studio code; but i'll include the command references anyway.  There are too many ways to skin cats; and plugins
-depending on the order they are installed may overwrite eachothers shortcut-key-bindings. 
+## Sales & Business Development
++ [_salesvikings](_salesvikings/README.md) sales strategy, bot driven client acquisition
++ [_b2bcbd](_b2bcbd/README.md) http://b2bcbd.us CBD Isolate Broker
++ [_opportunities](_opportunities/README.md) post project plans here!
 
-1. for windows 10 I recommend the Ubuntu Shell
-  https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows
+## Regional Channels
++ [_shenzhen](_shenznen/README.md) Shenzhen, China (or China)
++ [_city_sandiego](_city_sandiego/README.md) California, San Diego USA
++ [_europe](_europe/README.md) Europe Slack
++ [_srilanka](_srilanka/README.md) SriLanka 
+^^^ !! #bali? - needs a captain. 🍰
+
+## Lifestyle & Fun 
++ [_yogicentral](_yogicentral/README.md) Yei Health &amp; Wellness
++ [_airstream](_airstream/README.md) The EV silver rocket disco toaster, share pictures! 
+  +  also 2020 Party Planning, #passionpods
++ [_travel](_travel/README.md) Resources for travel (post for local help)
++ [_random](_random/README.md) No charter; no rules. 
+
+## X-Engineering .. in development 🤔
++ [_dataphiles](_datafiles/README.md) business metrics &amp; kpi's
++ [_cyberpunks](_cyberpunks/README.md) cybersecurity &amp; software development
++ [_red_team](_red_team/README.md) channel captain chat (please read channel rules)
++ [_prototypes](_prototypes/README.md) mechantronic development 
++ [_growbot](_growbot/README.md) GrowBot Electronics Platform
++ [_growpot](_growpot/README.md) GrowPot Design Files
+
+# Applications
+
+## vue-intranet-app
+🚀 I don't have these files served anyplace beyond github yet;
+
+
+
+# Downloading
+
+Yei need to download the local repo to access the files.
+
+# 🍎
 1. for MacOS a standard terminal emulator/shell prompt should be fine. 
-1. in VSCode a command/prompt shell 
 
-🚀 that's C:\/projects/c0re on my pc ; inside ubuntu /projects is a symlink to /mnt/c/projects
+# 🍫 Selecting a command prompt/shell WSL vs PSH
+Windows 10 offers a total of 3 different "shell" environments; for compatibility with many different generations of software.  As such; it's a bit complicated. 
 
-## clone this github repo to your computer
-- using the shell cd into the /c0re/vue-intranet-app directory ```cd vue-intranet-app```
-- first time only: ```npm i``` : will download and install any missing libraries. 
-- then: ```npm run serve ``` : a webserver will start on your PC; then you can access the site  from a browser; usually http://localhost:8080 (*it will say on screen)
-- or ```npm run lint ``` : performs a basic syntax check
-- or ```npm run storybook:serve``` : runs the storybook (not finished)
+🚀 just pay attention to enter the commands in the right shell
 
+* WSL "Windows Subsystem for Linux"
+  * preferred/best compatibility
+  * Linux/Unix command syntax 
+  * access WIN+R (Run); Open: "wsl.exe"
+  * https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows
+* PSH "PowerShell"
+  * .NET command syntax, compatible with PowerShell Integrated Scripting
+  * access WIN+R (Run) ; Open "PowerShell.exe"
+* CMD.exe "MS-DOS shell"
+  * Pre-Internet windows ancient compatibility layer
+  * access WIN+R (Run); Open "cmd.exe"
+
+🤓 Both PSH & WSL are supported inside visual studio code
+🤓 Some commands such as `git` will work the same regardless of shell
+
+## How to Clone this Repo
+
+```
+# Shell: WSL 
+mkdir ~/projects
+cd ~/projects
+git clone git@github.com:elasticdotventures/eva.c0re.git 
+ln -s eva.c0re core
+```
+🤓 Take a few moments to add shortcut links in windows to the c0re
+
+## Using GIT
+
+🤓 GIT is a super powerful tool; with a complex but extremely powerful syntax.
+🤓 "Nobody get's (understands) git the first time" 👈 try to learn basic core concepts like a commit, branch and push. 
+
+🚀 NOTE most GIT will be done inside of visual studio code; but i'll include the command references to show what's happening and to increase exposure. 
+
+🚀 Also; with GIT there are too many ways to skin cats; and plugins depending on the order they are installed may overwrite eachothers shortcut-key-bindings.  Git is embedded into a lot of software and none of the interfaces are terribly user friendly.
+
+🚀 that's C:\/projects/c0re on my pc ; but it doesn't really matter where you install the repo
+just create shortcuts in your downloads directory. 
+
+
+# Running the App/s
+App components are still in development; getting more yei on the developer environment 
+is huge progress towards our goal. 
+
+```
+# Shell WSL or PSH
+# using "npm" (Node Package Manager)
+
+cd ~/c0re/vue-intranet-app 
+
+# 🚀 FIRST TIME & AFTER UPDATES
+# 👇 the node.js npm command below will download and install any missing libraries. 
+npm i
+
+# then ... 👇 start a webserver using this node.js command:
+npm run serve
+
+# ^^^ then open a browser (such as firefox developer edition)
+# http://localhost:8080
+# 🚀 Also; the screen will display a url with IP address like http://192.168.1.100:8080
+# 👆 Use the IP address to access from a phone browser on the same wireless network
+
+# Did something break? 👇 How about some Diagnostics!?! 🤓
+npm run lint    # syntax test
+npm run test    # automated testing scripts
+
+# Need to access our storybook (not finsihed)
+npm run storybook:serve
+```
 
 ## what happened?
-- let @b know in #cyberpunks. thx.  
+- let @b know in #cyberpunks. thx.
