@@ -13,7 +13,8 @@ components, public facing documentation of http://Elastic.Ventures
 * ⛔ :stop: hints how to fix problems in earlier commands ^^^ (means above)
 
 
-# 🍰👇 Please help improve this documentation. 
+
+# 🍰👇 Please help improve this documentation!!
 
 🚀 I'm looking for ways to simplify this process; feel free to add your own notes.
 
@@ -27,7 +28,7 @@ Broadly the pre-release development versions of EV tech; as well as instructions
 As we develop new tools they will be included in this repo.
 
 # Slack _channel (NOT #channel😉)
-🚀 EV slack channel has a _channel directory inside eva.c0re repo. 
+🚀 EV slack channel will have a _channel directory inside eva.c0re repo. 
 
 
 ## # Hash is for Comments; NOT Channels.
@@ -46,7 +47,8 @@ This file (README.md) is inside the EV GIT REPO "eva.c0re" ; it has multiple bra
 
 The GIT library is embedded into many different types of software development tools and also available as a command line tool.
 
-🍫 For windows; open a shell:
+* 🍎https://git-scm.com/downloads
+* 🍫 For windows; open a shell:
 ``` 
 choco install git
 git clone git@github.com:elasticdotventures/eva.c0re.git
@@ -133,6 +135,7 @@ depending on the order they are installed may overwrite eachothers shortcut-key-
 1. for windows 10 I recommend the Ubuntu Shell
   https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows
 1. for MacOS a standard terminal emulator/shell prompt should be fine. 
+1. in VSCode a command/prompt shell 
 
 🚀 that's C:\/projects/c0re on my pc ; inside ubuntu /projects is a symlink to /mnt/c/projects
 
