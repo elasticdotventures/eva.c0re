@@ -1,5 +1,6 @@
 # eva.c0re repo
-EV Public c0re
+🚀EV Public c0re
+
 
 😁 this repository will *eventually* hold all public artificats, 
 components, public facing documentation of http://Elastic.Ventures
