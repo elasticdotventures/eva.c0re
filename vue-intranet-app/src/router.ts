@@ -19,6 +19,7 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
+    // @eva #pretty !study 
     {
       path: '/svg',
       name: 'svg demo',
@@ -33,6 +34,12 @@ export default new Router({
       path: '/nescss',
       name: 'nes.css styles', 
       component: () => import('./views/NesCSS.vue')
+    },
+    {
+      path: '/pokey',
+      name: 'pokey\'s standard', 
+      component: () => import('./views/About.vue')
     }
+
   ]
 })

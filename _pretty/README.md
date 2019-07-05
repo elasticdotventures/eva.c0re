@@ -1,27 +1,29 @@
 
-#pretty INSTALL
+# Pretty README
 
+Slack: #pretty   
+Video: https://meet.jitsi.org/elastic-ventures/channel-pretty
 
+# Welcome
 
-🍫 Microsoft Windows; via Chocolatey
+Before yei can dive into design; yei must get access to the #pretty files.
 
+# Software
 
-## 
 first step; install chocolatey (a windows package manager); use that to install everything else.
 
 @margaret
 Chocolatey 🍰 installer 
 https://chocolatey.org/
-WIN+x  || select Windows Power Shell (Admin)
+```
+# WIN+x  || select Windows Power Shell (Admin)
+```
 
 # MACOS 🍎:apple:
-Because some of the team (ahem @pokey) uses mac; 
+Because @pokey uses mac; 
 i'm also going to include :apple: instructions as well. 
 
 ## getting started
-
-
-
 
 Proposed Minimum Toolchain:
 Node.js LTS 10.16.0 (or better)
@@ -103,3 +105,8 @@ Name: SVG Viewer
 Id: cssho.vscode-svgviewer
 Description: SVG Viewer for Visual Studio Code.
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer
+
+-------
+Created: dt20190705
+Author/s: @b
+

@@ -41,7 +41,7 @@
 
         <ul class="list ma0 pa0 flex flex-row flex-wrap teal4">
           <li class="pv3 ph2 ma0 link grow">
-            <font-awesome-icon icon="coffee" size="4x" />
+            <font-awesome-icon icon="coffee" size="3x" spin />
           </li>
           <li class="pv3 ph2 ma0 link grow">
             flipped <font-awesome-icon :icon="['fas', 'coffee']" flip="horizontal" size="4x" />

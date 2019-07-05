@@ -16,8 +16,10 @@
       <router-link to="/about">About</router-link> | 
       <router-link to="/svg">SVG Demo</router-link> | 
       <router-link to="/Material">Material Test</router-link> | 
-      <router-link to="/nescss">NesCSS</router-link>
+      <router-link to="/nescss">NesCSS</router-link> | 
+      <router-link to="/pokey">Pokey</router-link>
     </div>
+    
     <router-view/>
   </div>
   </v-app>
