@@ -1,0 +1,19 @@
+{
+  "name": "bridge_wechat",
+  "version": "1.0.0",
+  "description": "eva.c0re bridge to wechat",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+      "start": "node index.js",
+      "build-ts": "node ./node_modules/typescript/bin/tsc"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN <README.md>",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "sha1": "^1.1.1"
+  }
+}
