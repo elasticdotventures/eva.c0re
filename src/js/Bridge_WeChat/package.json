@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-      "start": "node index.js",
-      "build-ts": "node ./node_modules/typescript/bin/tsc"
+    "start": "node index.js",
+    "build-ts": "node ./node_modules/typescript/bin/tsc"
   },
   "author": "",
   "license": "SEE LICENSE IN <README.md>",
