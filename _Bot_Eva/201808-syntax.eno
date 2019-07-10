@@ -1,0 +1,295 @@
+>
+
+> EVA/2.0
+
+> this is a bootstrap file in eno format https://eno-lang.org/language/
+
+> EVA is Elastic Ventures Assistant
+
+> written by brianh@elastic.ventures  2018-08-18
+
+> copyright and intellectual property of Elastic.Ventures
+
+
+
+
+
+> Summary: I’m building my own flexible command language on top of ENO and Google Docs.  Feel free to use comments. This is a LIVE file. The syntax is real.
+
+
+
+
+
+> This is an actual valid .eno script (look at the doc title) for EVA v2, these will be stored on a shared team drive in support@elastic.ventures folder 🤖EVA\\#salespunk or 🤖EVA\\#growbot. This is for a test harness, the unit test will be a contact receiver.  This is the actual harness.  The $LocalvariableS$ will use a notation first, last letter capitalized with dollar signs on both sides to make them stand out.
+
+
+
+
+
+> EVA will read commands in the slack-esque format:
+
+> /command ; /command --with $LocalvariablE$
+
+> for readability the commands here are separated by semicolons, NOTE: that is supported by eva but not by slack.
+
+
+
+
+
+> the current command language has a limited number of prospecting commands. Post mvp we can enhance this quickly it’s modular.  Notice that this line is a comment, but because there was no CR/LF in google docs it will be treated as one line so it’s not necessary to put a > on every line. So any line beginning with > is a comment, that’s how the googledoc+eno command syntax behaves.  Long term we’ll have validators, but for now eva will simply download and parse this file and execute it, and others in a script, setting its own follow ups and tagging accounts in the CRM based on their disposition.    The interpreter is the node-cli module (which is a command line syntax) combined with a slack bot i.e. each command is logged (AWS cloudwatch) and we’re keeping that data for analysis.
+
+
+
+
+
+> Think of this as a multi-channel outbound sales & support funnel that can send templated emails, text messages, and make phone calls (in the humans voice) i.e. leave voice mails, trigger alerts on price, or order status changes, etc. -- if the receiver wants a human follow up they can request that. All the account information is kept in the cloud, when you’re on vacation in slack you will say who your bot notifications are routed to.
+
+
+
+
+
+> to be effective this automation syntax needs to be simple and robust, it’s designed in a way that it should ultimately be able to learn and rewrite itself by studying transcriptions -- but hopefully a semi-smart human can also contribute directly, i.e. a “bernard” of westworld (he’s the bot behavior specialist, who spoiler: turns out ot be a bot himself).  I.e. anybody with access can literally come in with googledocs to this file, create a new version - make changes and it’ll be loaded and online in a few moments and boom, that’s the new script.
+
+
+
+
+
+> That’s including the ability to add specific client responses or selectively a/b test paths if you want. Additionally, if you’re calling through a bot i think i can pretty easily build a system that simply records all the conversations, transcribes them and integrates those responses (with future improvisation). Obviously text messaging is better (preferred for most people).  I.e. in westworld how we can increase or decrease improvisation, etc.
+
+
+
+
+
+> I know you probably think your sales style is a snowflake, but my bet is can train your robotic assistant to generate qualified leads for you at a fraction of the price you’d expect to get paid. We can probably license something like https://www.zo.ai/ and then put out an RFP for somebody who can do better.   I am the guy who builds the robots that take all the jobs (and hopefully make better ones).
+
+
+
+
+
+> ## SYNTAX GUIDE
+
+> (these are all examples, like a trainer, the actual script is below)
+
+
+
+
+
+> ## /say .. literally outputs the message, with variables interpolated, in voice:
+
+>  i.e. /voice ralphywiggum.voice; /say “i am aeh sleep viking”
+
+> NOTE: so how can we generate that voice to do ralph wiggum? well we training LyreBird AI to do those “celebrity” voices by using AWS deeplens to train on a picture of ralph wiggum (google images), then listening+clipping to audio when his mouth is talking on literally hundreds of hours of bootlegged simpsons, or we isolate that audio pattern .. or maybe just using his unique pitch characteristics isolated in the audio .. tbd, either way, lots of tutorials online how to do that (but few commercial applications), anyway then we’ve got a Lyrebird file trained on his voice .. now your scripts can use that, improvisationally.  Now that’s something the robot can do (that’s entertaining) that the real fabio couldn’t do.  That is a single weekend hackathon .. less than a few hours with the right code.
+
+
+
+>  ## /goto .. jumps to a block of commands i.e. @jump_to_block corresponds to another --eno_block syntax or command: /line.
+
+> note: the @ does not appear in the -- eno_block or command: that’s intentional, if you’re going to goto then it needs to have an explicit @, jumps via variables will be supported as well.  The point of the @ is to make the goto labels intentional // easy to parse & validate.
+
+> note2: there will be a validator to make sure we can catch typos before we call the first real client with EVA.
+
+> example: /goto @jump_to_block
+
+
+
+
+
+> ## /listen .. waits for client to respond
+
+>  /listen receives an audio or text input, tries to match it to an emoji (sentiment) .. suitable for yes no questions, etc.
+
+
+
+
+
+> ## /var set a variables
+
+>  /var  set_a: variable; /var set_another: variable
+
+
+
+> ## /require-env:  these variables supplied from the crm system.
+
+> /require-env $source.variable$
+
+
+
+
+
+> this is the preloader .. these commands initialize the robot.
+
+
+
+
+
+/voice: fabio.voice
+
+> HEY @fabio i’d like to synthesize your voice i.e. lyrebird (or equivalent)
+
+> lyrebird demo: https://www.youtube.com/watch?v=VnFC-s2nOtI
+
+> but i think it’s important to understand we can literally write scripts for obama, trump, etc.  i.e. /voice trump.voice if that makes sense.
+
+
+
+
+
+> final note: this eno syntax SHOULD be convertable into most other AWS, Azure, GoogleCloud, etc. interactive formats with minimal work - so we may be able to use something like Amazon Lex + Amazon Connect (by setting up a sip call that is bi-directional outbound joined to inbound lex IVR) -- I hope this makes sense.
+
+
+
+
+
+> these will be imported in the cloud lambda function from the crm record
+
+/require-env: $slack.channel$
+
+/require-env: $crm.id$
+
+/require-env: $crm.firstname$
+
+/require-env: $crm.phone$
+
+/require-env: $crm.email$
+
+> these are variables set, they can be accessed as $BotnamE$ and $VersionN$
+
+> this is the first time i’ve used the css parsing syntax ;
+
+/var BotnamE: Eva; VersioN: 1
+
+> now we jump into the first instruction block
+
+/goto @hi_im_eva
+
+
+
+
+
+> long term we will have more dialog files
+
+> also the ability to ‘study’ certain books, i.e. zig-ziglar and import vocabulary files
+
+
+
+
+
+-- hi_im_eva
+
+/say Hello $crm.firstname$, I’m $BotnamE$
+
+/say I’m following up to see if you got our email about CBD?
+
+/listen $ResponsE$ \
+
+| 👂😀👍 /goto $received_email_YES$
+
+| 👂😢👎 /goto $received_email_NO$
+
+| 👂🌐🤖 /goto $run-eva$
+
+| ⌛️⏲ 5s ; /say “sorry, let’s try that again” ;
+
+-- hi_im_eva
+
+
+
+
+
+-- received_email_YES
+
+/say Great!  so how much CBD would you like to buy?
+
+/listen @quantity.wav \
+
+| 👂😀👍 \
+
+|  | /speech-to-text @quantity.wav @quantity.txt \
+
+|  | /email
+
+| 👂😢👎 /goto @thanks
+
+-- received_email_YES
+
+
+
+
+
+-- received_email_NO
+
+/say So sorry, tell you what, I’m going to send you another copy and call you back in 3 days.
+
+/email $crm.email$ @email-template
+
+/slack $slack.channel$ @meekan “remind-me-to: /load 🤖EVA\\#b2bcbd\\hello-from-eva.eno” in 3 days
+
+/goodbye
+
+-- received_email_NO
+
+
+
+
+
+-- email-template
+
+To: $crm.email$
+
+Subject: Excellent CBD Pricing
+
+Body: \
+
+| Hello, thanks for your interest in CBD.
+
+| Our sales presentation is here:
+
+| http://bit.ly/
+
+|
+
+| To schedule an appointment:
+
+| http://bit.ly/my-calendar-link
+
+|
+
+| To make an order:
+
+| http://b2bcbd.us/admin/$crm.clientid$
+
+|
+
+| Have a wonderful day!
+
+|
+
+-- email-template
+
+
+
+
+
+-- 🤖
+
+/say My name is EVA script %version% and I don’t feel well at all.
+
+/die
+
+-- 🤖
+
+
+
+
+
+
+
+
+
+> For the technical minded, yes this is simply a lambda function that can call other lambda functions via SES, SQS, or HTTP to generate new scripts -- i.e. a situation where a function doesn’t have an answer so it pauses and computes a new answer (or prompts a human) and then “learns” as it moves, this could be done predictively, and simulated a few hundred times againsts competitive “customer simulators” to guess the best answer based on historical data, i.e. rewriting it’s own syntax but keeping a log of it to be reviewed by humans.
+
+
+
+
+
+> content of daily yoga courses, life coaching, health, etc. could all be loaded into this script format.
