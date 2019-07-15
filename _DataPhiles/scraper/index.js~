@@ -1,0 +1,10 @@
+const ddg = require('ddg-scraper')
+ 
+ddg.search({
+  q: 'Albert Einstein',
+  max: 5
+}, (err, urls) => {
+  if (!err) {
+    console.log(urls)
+  }
+})
