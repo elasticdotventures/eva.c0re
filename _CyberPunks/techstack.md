@@ -4,9 +4,10 @@ I'm not even show how to organize this at this point.
 This document is intended to be a thorough accounting of what each piece of software does and where it's documentation is kept. 
 Eventually we'll score this 
 
+
 * CSS "Cascading Style Sheets"
-  * -bootstrap 4  we don't use bootsrap.
-  * https://acss.io/  atomic css is used for generating atomic stylesheets; but doesn’t play nicely with others. 
+  * -bootstrap 4  yei don't use bootscrap -- so please don't suggest it.  
+  * https://acss.io/  atomic css is used for generating atomic stylesheets; but doesn’t play nicely with others.  yei don't use that (but yei do atomic design)
   * https://github.com/lucagez/Debucsser - css debugging
 
 
@@ -17,7 +18,18 @@ Eventually we'll score this
     
   * async programming using callbacks
     TUTORIAL BROKEN
-  * 
+
+  * app dev
+    * vue.js / typescript
+    * 
+
+  * mobile dev
+   * nativescript (future)
+
+
+!thanks potrace
+!thanks imagemagick
+
 
 
 # EV #pretty specification layer
