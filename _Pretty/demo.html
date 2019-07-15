@@ -1,0 +1,49 @@
+
+  <!doctype>
+  <html lang="en">
+  <head>
+    <title>SVG Sprite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <style>
+      html { box-sizing: border-box }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto",
+          "Oxygen","Ubuntu","Cantarell","Fira Sans",
+          "Droid Sans","Helvetical Neue",sans-serif;
+        font-size: 1.125rem;
+        text-align: center
+      }
+      h1{
+        font-weight: 100;
+        margin-bottom: 1em
+      }
+      small { font-size: .34em }
+      .icon { 
+  width: 50px; 
+  height: 50px;
+  margin: .5em;
+}
+    </style>
+  </head>
+    
+  <body>
+    <!-- SVG Sprite -->
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="Anonymous Mask-595b40b75ba036ed117d50a7">
+    <path d="M25 2C15.059 2 7 4.686 7 8v17c0 5.083 5.417 19.083 18 22 12.583-2.917 18-16.917 18-22V8c0-3.314-8.059-6-18-6zm0 2c10.499 0 16 2.972 16 4v17c0 4.138-4.33 15.523-14 19.295V38h-4v6.295C13.33 40.523 9 29.138 9 25V8c0-1.028 5.501-4 16-4zm-8 7c-1.996 0-4.145.877-6 4 1.953-1.36 3.613-2 5-2 2.688 0 4.026 3.15 4.44 3.56a1.5 1.5 0 1 0 2.12-2.12C22.196 14.073 20.439 11 17 11zm16 0c-3.438 0-5.195 3.074-5.56 3.44a1.5 1.5 0 1 0 2.12 2.12C29.975 16.15 31.314 13 34 13c1.387 0 3.047.64 5 2-1.855-3.123-4.004-4-6-4zm-17 6c-1.64 0-3.082.594-4 1.5.918.906 2.36 1.5 4 1.5 1.64 0 3.082-.594 4-1.5-.918-.906-2.36-1.5-4-1.5zm18 0c-1.64 0-3.082.594-4 1.5.918.906 2.36 1.5 4 1.5 1.64 0 3.082-.594 4-1.5-.918-.906-2.36-1.5-4-1.5zm-23 9l5 8h7l2-2 2 2h7l5-8-6 5h-4l-3-3h-2l-3 3h-4l-6-5z"></path>
+  </symbol>
+</svg>
+    <h1>
+      SVG Sprite Demo
+      <br/>
+      <small>
+        created with <a href="https://svgsprit.es/">svgsprit.es</a>
+      </small>
+    </h1>
+    <svg class="icon">
+  <use xlink:href="#Anonymous Mask-595b40b75ba036ed117d50a7"></use>
+</svg>
+  </body>

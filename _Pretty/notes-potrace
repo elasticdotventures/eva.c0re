@@ -1,0 +1,11 @@
+   --opaque       fill in the white parts of the image opaquely, instead of leaving them transparent. This only applies to interior white parts, i.e., those that are enclosed inside
+                      a black outline. Opaqueness is always in effect for the XFig backend.
+
+   SVG options:
+       --group        for SVG output, try to group related paths together. Each path is grouped together with all paths that are contained inside it, so that they can be moved around as
+                      a unit with an SVG editor. This makes coloring individual components slightly more cumbersome, and thus it is not the default.
+
+       --flat         for SVG output, put the entire image into a single path. This makes it impossible to color the components individually, and thus it is not  the  default.  But  the
+                      resulting  SVG  file can be more easily imported by some applications such as Gimp. In fact, the Gimppath backend is a variation of the SVG backend with the --flat
+                      option and pixel-based scaling. The --flat option has no effect if --opaque has been selected.[1;2H
+

@@ -1,12 +1,23 @@
 #cyberpunks
 When documenting EvEff’s please use “Left” for Sad/Broken response; and “Right” for Happy/Success path. 
-@eva !study javascript event loop
-@eva !study javascript prototype constructor
-@eva !study javascript map join monads
-@eva !study javascript instanceof
-@eva !study javascript Either() function - require it?
 
-Neuromorphic Intelligence Level
+## Javascript
+!study vue.js
+!study typescript
+!study nativescript
+!study vuetify
+!discuss ..
+!curate funfun functions()
+!study javascript event loop
+!study javascript prototype constructor
+!study javascript map join monads
+!study javascript instanceof
+!study javascript Either() function - require it?
 
-🚀 #pretty !file [jargon.md] Neuromorphic Intelligence: adapts to the audience.  
+
+## bash/shell scripting
+https://github.com/willinspire/pure-bash-bible
+
+
+
 

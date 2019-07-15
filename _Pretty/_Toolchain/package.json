@@ -1,0 +1,16 @@
+{
+  "name": "pretty_toolchain",
+  "version": "1.0.0",
+  "description": "Author: @b Purpose: a seres of scripts for modifying images programmatically (not finished)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@b",
+  "license": "SEE LICENSE IN ../../ev-license.txt",
+  "dependencies": {
+    "color-name-list": "^4.10.0",
+    "colornames": "github:timoxley/colornames",
+    "pngjs": "^3.4.0"
+  }
+}

@@ -1,0 +1,2 @@
+convert -flatten logo.png temp.ppm
+potrace -s "temp.ppm" -o logo.svg

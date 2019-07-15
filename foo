@@ -1,0 +1,606 @@
+commit dd7ccc96bc0e15feded0a7416f82b7b86176766d
+Merge: 6245ccc dbcf4d4
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:52:47 2019 +1000
+
+    Merge branch '201907-Pretty_Experiment'
+
+commit dbcf4d419892b4faee59bd456c4da41308b77b98
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:39:50 2019 +1000
+
+    cleaning up repo
+
+commit 6245ccc34cd42e6c45d364dd728af3767c0cfc73
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:45:03 2019 +1000
+
+    can i checkout plz
+
+commit 5a3ff07fb4bfc8f3091d8dac30ee00bb35b0f534
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:39:21 2019 +1000
+
+    cleaning up repo
+
+commit 6d083edac7baa5476feb18585d0060e7f586d2fb
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:37:54 2019 +1000
+
+    remove googledrivefilestream.exce
+
+commit fac9601faed2b7d5ba2f2d928608c66865a1abe3
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:34:28 2019 +1000
+
+    future use
+
+commit 83ef2dd00509237b4c22b77cdeedce1328b2e5dd
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:34:01 2019 +1000
+
+    synching
+
+commit 1d7f868c4d9e5909e2c95b64c8cc1852e8209c20
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:28:24 2019 +1000
+
+    merging repo
+
+commit b3898e48062b0ee8c17789e3731c808c806678e5
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:27:12 2019 +1000
+
+    latest
+
+commit 53871a0b69b46c922a1c149bc591c05ad16a7970
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:22:54 2019 +1000
+
+    what a mess.
+
+commit 1c9a5334c6cf0e18f68f1ff63b60d66af6ccae08
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:18:10 2019 +1000
+
+    more cleanup/reorg files.
+
+commit 9f04c64c47c5750b3e6099756f3bb026584bd629
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:17:36 2019 +1000
+
+    clearing out my backlog
+
+commit 9e474ac7c42208fb8830297f48c6d24e272d1367
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:14:10 2019 +1000
+
+    Right_To_Repair_Info
+
+commit 4a62c06d598846e9d54aa0682d7687b1400fbd83
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:13:36 2019 +1000
+
+    old business cards (reference)
+
+commit fab159e55d121c886f3b8f49d66d245238c1b7c1
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:12:43 2019 +1000
+
+    a bunch of toolchain stuff
+
+commit 67a3c1d47b5b6f2cca7e822157f1cd74ede11dc8
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:07:16 2019 +1000
+
+    3d logo obj,stl,3mf
+
+commit 5acaaea6c5a73c1a1fb8f9e63d9062cf65ec8600
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 15:06:00 2019 +1000
+
+    pirate graphics
+
+commit a02dbdf89aae491572bacc1aac4dc0d900f96611
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:04:09 2019 +1000
+
+    colornames
+
+commit 2d0ef92f455f433a1bfa62337e4fd3c05ee6f5e3
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 15:03:23 2019 +1000
+
+    show the branch in the command shell
+
+commit b4a865befe2e3b0057b52f9fae7bf63fddbe92f0
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 14:59:40 2019 +1000
+
+    ev logo
+
+commit ae2a153395a583ea097b687f5d1fe99235f485ca
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 14:58:27 2019 +1000
+
+    stock photos
+
+commit 90ccaef0383f38cb6a3a3aff8bf603d3f3f8b815
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 13:33:59 2019 +1000
+
+    now outputs background color
+
+commit f90834d470484353f9b5e377c6e955c340bd7f49
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:55:44 2019 +1000
+
+    crew
+
+commit 8bb1bd27682c8ed7a2da1c69533577ab564d7052
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:54:32 2019 +1000
+
+    more #pretty
+
+commit 1f13b7408c18cca60a1a6ace8ec8b0af50c4952f
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:51:39 2019 +1000
+
+    svg logo
+
+commit cde5a12ed0ddd022ec3a2685bb12baa7fc9980f7
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:50:16 2019 +1000
+
+    svg samples
+
+commit c3f956f1bb6735c2b4eb32a7fd8aa4945a8606e1
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:49:41 2019 +1000
+
+    fonts:
+
+commit ec13bd5237933316bc6093eea38c601b88da0ff9
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:47:32 2019 +1000
+
+    fonts
+
+commit a53247ffdac77078ff1119d5c1511dd29c9265f2
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:43:28 2019 +1000
+
+    future
+
+commit 6ec1b0e21128415774a033f809b11cc4263a4291
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:36:23 2019 +1000
+
+    _Opportunityei charter
+
+commit 29e0cc536cce83ac9a98f3cf631c3ba9a49d17f4
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 12:32:13 2019 +1000
+
+    #prototypes charter
+
+commit 2c527e14fd0816cce69d4fd4fe79c0e2a44b36c2
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 12:31:32 2019 +1000
+
+    😀
+
+commit 8d741f44f7bc74618aa5ebb02deb74e5fca0d705
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:05:24 2019 +1000
+
+    pictures of Rockets, space, etc.
+
+commit 7942d4186338724a2019df89bb2a97e4a7c4984d
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 12:03:01 2019 +1000
+
+    learning resources
+
+commit cf7d48d828b362b5080e1fc6b3e8d100ce80eb7d
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 12:01:45 2019 +1000
+
+    notes from bitrix-ivr system
+
+commit d95294e9384e85f985131902a9a96410131ed70d
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:59:26 2019 +1000
+
+    Dataphiles charter and dates.txt
+
+commit c177c90d6ef40f463422679dfe2ad12566ab39c9
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:58:07 2019 +1000
+
+    vdrive idea
+
+commit 32fa53a3137b2bb286cfbeb3f0071279b4fd5b6d
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:57:09 2019 +1000
+
+    references to other bots; error screens.
+
+commit 1ae2720b66f50f434089908b10aeb98a683852df
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:49:25 2019 +1000
+
+    azure notes
+
+commit 600c8b9ce1838fc9ac7954a2838f0c6ab2b91167
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:49:09 2019 +1000
+
+    wechat package
+
+commit ad5a6979da2a7870310f7f1fac0745992dfae824
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:47:30 2019 +1000
+
+    #airstream beta plan document (draft)
+
+commit 15bb063bad59f81c5a5e7867c5b87186598c441b
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Mon Jul 15 11:47:04 2019 +1000
+
+    curating material design samples
+
+commit b962be86457a46a761f261b1801c06c63fb7fdae
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 11:44:26 2019 +1000
+
+    trying to extracate the .serverless resource files from repo
+
+commit 7829baadf80e6c53428ccbc72be0ce42638abeb3
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 11:38:38 2019 +1000
+
+    techstack notes
+
+commit cca5cf795b0e9f7760ba37f1dfad8eb69e052c6b
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 11:37:49 2019 +1000
+
+    serverless notes
+
+commit da7aa472c8861cacc1c7efabecaa8ab1b127e1f9
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 11:37:28 2019 +1000
+
+    study notes
+
+commit 326bf1afd5dbf9b8f7fd782e33815b0b24912edf
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Mon Jul 15 11:35:58 2019 +1000
+
+    glob of updates
+
+commit 57014c1bf3015eca5c91342a2278e0412b5cfe4c
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 21:51:18 2019 +1000
+
+    license
+
+commit d70f3b3da6a6d5948f1d07c350b99b5e51433666
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 21:50:37 2019 +1000
+
+    verifying bot update ability
+
+commit a6ebc35987a09a945c0ce994d91d3ba91ff796b9
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 21:32:13 2019 +1000
+
+    ugh; commit -a doesn't support emoji. :pray:
+
+commit 5980601b636625d3da04222089092193183df42d
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 21:29:46 2019 +1000
+
+    eva pictures
+
+commit e6760f030c655db9f69553de25c4d5e7c73ec04b
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 21:28:57 2019 +1000
+
+    early reference material
+
+commit 75498f20cc17b10c8ddaee9a2622b555ff5610a2
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 21:28:16 2019 +1000
+
+    ev-license on _Bot_Eva content, syntax
+
+commit db9cdc10b7ab72fd550efc0b1f0e3c9887e518a8
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 20:29:52 2019 +1000
+
+    moved files.
+
+commit fbf75b28504d124672a39abdf2b3e97ac5feb4bf
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 20:29:32 2019 +1000
+
+    #b2bcbd-vue-components
+
+commit fd13d92880f78123f7900c71134f02054a39374e
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 19:19:27 2019 +1000
+
+    add WeChat bridge
+
+commit fa5858ee666b14330c469767d177e103c1add8c2
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 19:18:28 2019 +1000
+
+    Troublemaker.site draft
+
+commit 7be0421c30b569e05b22cbbf63d9e6c29161eb97
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 10 19:16:52 2019 +1000
+
+    storybook
+
+commit 131f7ae41cbcf38d99c1dc07f5f74fff5a8b360e
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 17:38:27 2019 +1000
+
+    npm install --save express ejs request sha1
+
+commit 4eec3c61e50766f1b9a028ae88f4f7fd4d3deefd
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 17:36:01 2019 +1000
+
+    some Cake.md technical prototyping;  testdoc flow.
+
+commit b172f115ded7ecaf665ff2ae114f629049bce3b4
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 17:35:09 2019 +1000
+
+    #airstream 💥 roger, alpha down.  🙏 😁 alive.
+
+commit 2cd5f0e8a049954388f29645bb508c7e0d8841c9
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 17:31:46 2019 +1000
+
+    ignore node_modules ; install them npm -i
+
+commit 0ef6151471eb53d40d8fd9a878a79dd9ff7912ba
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 10 17:31:16 2019 +1000
+
+    baking :cake:
+
+commit e3f951bb5e759451e1872f99843855f850b89978
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Fri Jul 5 18:04:57 2019 +1000
+
+    cleanup..
+
+commit 381bdc39c281ccd78a57b47e124c4ca3e508d09f
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Fri Jul 5 18:04:25 2019 +1000
+
+    updated main README
+
+commit 6f91f3bb2956285d31cba3d92566b016b0df5c9b
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Fri Jul 5 18:04:09 2019 +1000
+
+    _Channels
+
+commit 2f19fca3606e2724c883482efab1221652474f0a
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Fri Jul 5 18:00:02 2019 +1000
+
+    _Airstream
+
+commit 40a0c344ae9801f98b8a9d1a171e5db84d9eb3ce
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Fri Jul 5 14:11:22 2019 +1000
+
+    added the 🍰 blockchain
+
+commit da7b57ce40b3460ebb463c2ba8291e60fc1ef392
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Fri Jul 5 13:46:07 2019 +1000
+
+    adding a 🚀 for video
+
+commit c7a64ae6ee3737198750ed2a202f7e6576fc8678
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Fri Jul 5 12:54:54 2019 +1000
+
+    notes from video with paul
+
+commit 5dde7b27e57314832b3cb3296b171b120b7ee755
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Fri Jul 5 11:11:41 2019 +1000
+
+    improved README
+
+commit e8dac5bc4dc5c0d061cb37fc49273b10444012ad
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 22:48:50 2019 +1000
+
+    more reading
+
+commit 1eb57f1ae4fcf07058af020bb8be734a3345755d
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 22:39:44 2019 +1000
+
+    removed old app version
+
+commit 8e6fedafba083d200f00e4f2521170d4253d36c8
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 22:38:25 2019 +1000
+
+    updated README
+
+commit fae635b01f2db27ed3067bcc9c7d336112a3fee4
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 22:37:17 2019 +1000
+
+    welcome README
+
+commit 1ec93c0ca76676b7fe0e30462835b3e9944024f0
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 22:15:54 2019 +1000
+
+    vuetify + storybook
+
+commit 5fed2b7085ceaab7bffe115ee00e8fcbea89c572
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 18:54:04 2019 +1000
+
+    restored nes.css
+
+commit daeee593a65a452695acc1b3c20d922b8ae3a7c1
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 18:37:24 2019 +1000
+
+    vue ui package upgrades
+
+commit 77df716368b9799c49c761853867b2b168d55246
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 18:28:38 2019 +1000
+
+    nescss integration
+
+commit 318023aacf89e20016a9ef8dfb3e092311408981
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:55:32 2019 +1000
+
+    fixed vue-hot-reload hang due to invalid template
+
+commit 631cd7368d88ea2bdcfb78295eec0b3876942714
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:22:16 2019 +1000
+
+    NesCSS initial commit
+
+commit a3f50335917a3151ed54bd741f4bcd17b0c617fb
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:21:06 2019 +1000
+
+    vue-cli axios plugin
+
+commit 1624396bd65509b135464c43178c296a85229a57
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:14:47 2019 +1000
+
+    added css sourceMap support
+
+commit a4c4077464a2cedf2de4a59c535a85857f563cf0
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:12:28 2019 +1000
+
+    fixed <v-title> is not defined.
+
+commit 7eacf7bb505f2131fb3cdbd01a8614e7f5749658
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 16:05:11 2019 +1000
+
+    vue-cli vuetify cli (1st commit)
+
+commit faa8f7a822b00d307ab3e3a4ed06fe543c78527f
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 14:53:24 2019 +1000
+
+    missing files.
+
+commit e4387524b090be03f647b8493e481fa15a7e62ec
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 14:52:43 2019 +1000
+
+    added vuetify (Material Design)
+
+commit 593fe4938ade036f24a93bba8ca317f0ebdd309d
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 12:44:27 2019 +1000
+
+    staging some environment settings.
+
+commit 6d9607541f5f7af15ec25a7743c22d9948ba3c5c
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 12:42:42 2019 +1000
+
+    << material-components-vue (requires sass)
+
+commit de867d95be1bee7cebc07f12af7fe0097c2c180d
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 12:41:46 2019 +1000
+
+    material-components-vue  wants sass (🤔not today)
+
+commit 0c3efe6555c7e6d6a0e95e289e4f99cf435e9eed
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Wed Jul 3 12:39:52 2019 +1000
+
+    .. starting material storybook component
+
+commit fef13e7b8ea952906b308e5282c997c9a6c8135c
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 12:07:46 2019 +1000
+
+    SVG headers
+
+commit ab10d452bf282668593fb308ca7a450ae52f25e4
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 11:44:03 2019 +1000
+
+    svg demo page now shows fa_icons
+
+commit e3188d821169fc31703299ce5a7a7245cd194bea
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 11:03:28 2019 +1000
+
+    vue-awesome svg font library
+
+commit 62a775bc9f8d0e87d420a8720ea7068eb345797d
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 10:33:07 2019 +1000
+
+    .gitignore proper
+
+commit 9d1b29be733ea9e7c40fad26ac51983175d1abb2
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 10:27:24 2019 +1000
+
+    .gitignore *.lock files
+
+commit 600a51edd3cc995748c1da4cfc859a9461c10fc8
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 10:18:44 2019 +1000
+
+    vue-svgicon + tracking src/ dir
+
+commit 4e54eabd0c28ecd9ebe7555bb5d3e0decf1f5db0
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 01:46:35 2019 +1000
+
+    npm vue-material-designs-icons
+
+commit b8652c048387565d914b6fe8cfa3cc646e433bab
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Wed Jul 3 01:33:10 2019 +1000
+
+    storybook installed in default vue-cli app
+
+commit a34928c0b2efd2e92ca5a33708b929e51e80236a
+Author: Brian Horakh <brianh@elastic.ventures>
+Date:   Sat Jun 29 13:08:53 2019 +1000
+
+    added jargon.md
+
+commit 94fb4ae2be1cbd4cde30a8ba6bcb632db6d408a8
+Author: elasticdotventures <35611074+elasticdotventures@users.noreply.github.com>
+Date:   Sat Jun 29 13:02:13 2019 +1000
+
+    Initial commit
