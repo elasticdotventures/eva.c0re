@@ -1,0 +1,16 @@
+esp32 notes
+
+espressif chip
+
+this is NOT our board; but shows the WRoom32
+https://ae01.alicdn.com/kf/HTB1n8ZvfvNNTKJjSspkq6yeWFXac/ESP32-DevkitC-Core-Board-Development-Board.jpg_640x640.jpg
+
+
+uart bridge; possibly SILABS CP2102 USB to TTL bridge  QFN-2
+CH340G / CH340T might also work   roughly 1/2 price of CP2102 in a SOP-16 package 
+
+as11 ?voltage regulator/? size-to252    (or AMS1117)  
+j107 ??
+j3y ??
+
+---

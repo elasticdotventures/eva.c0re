@@ -1,0 +1,31 @@
+{
+  "name": "coda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "old.start": "nodemon coda.js",
+    "old.test": "mocha --require babel-register",
+    "old.build": "babel coda.js -d lib",
+ 
+    "watch": "babel --watch src ---out-dir lib --extensions '.ts,.tsx'",
+    "build": "babel src --out-dir lib --extensions '.ts,.tsx'",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "see ev-license.txt",
+  "dependencies": {
+    "coda-js": "^1.0.3",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-polyfill": "^6.26.0",
+    "nodemon": "^1.19.1"
+  }
+}
