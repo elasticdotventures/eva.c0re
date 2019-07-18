@@ -1,0 +1,38 @@
+#,,,# the sketch of the onboarding script for eva
+/say @eva welc0me #human!  shall we play a game?
+#,,,#	^^^ option for multi-language
+/wait --input "text"; "yes"
+no-> it repeats until they say yes.
+no-> 10x it tells them they need to say "yes" to get cake
+no-> 100x it tells them they are terminated -> end of game.
+restart -> 
+ #cyberpunks #wargames sci-fi movie curation; sci-fi trivia  
+
+
+Our Stack: Slack, Gmail, Google Apps, LucidCharts, Github, AWS
+As much as possible we want every department in the company to use the same tools; and we want those tools to be cloud based; and as much as possible to be heterogeneous.  
+
+Slack
+The point of slack is to organize and compartmentalize our communications so that announcements & discussions are easy to share with the proper people.   For this reason #ops is a top level, and is for the most part synonymous with #eva to document all the little processes to make them easier for recruiting, hiring, etc.   
+Google Suite
+Admin URL: https://admin.google.com/elastic.ventures/AdminHome
+We pay $5 per month; per person for a @elastic.ventures Gmail account; they are not free.  
+We pay for one account ops@elastic.ventures is a shared gmail & google drive account; mailclark, domain registrations, etc. MUST be routed through that.
+ops@elastic.ventures email hosts eva.core docs; i.e. it has ownership over the sensitive company documents; That’s the login - but for now I’ve created an alias that we can use that for + routing codes.  
+Gmail “+ routing code” is a feature that lets us create workflows for incoming email; i.e. “ops+receipts@elastic.ventures” is a routing code; anything after the + is still delivered to ops@elastic.ventures.  By using role based aliases; and simple templates; paying attention to use a format like json or eno with the intention of ultimately writing automation software to process (or reject) them.  Additionally we could link this to other messaging interfaces or use a pre-built receipt categorizing software that links to our account software.  (I’m sure somebody has built SOMETHING like this; but let’s build up a pile of receipts)
+ops@elastic.ventures has a folder called “#eva” which is intended to be shared among management and contains the confidential information in the company.  Long term (as we are profitable; with more people) we will upgrade to the deluxe version of G-suite and get team drive then we can put people in groups based on their role and they’ll all have cloud shared drives.   This is also accessible via the google drive; i.e. using a tool like NetDrive you can access the shared google drive; #eva folder.   (🍰Steps??)
+Please use the ops@elastic.ventures  to automate and route emails, trigger notifications, etc.   all business related emails, invoices, etc.
+Gmail account “YOU@elastic.ventures” has an unlimited number of routing extensions by adding YOU+extension@elastic.ventures
+We can also create other aliases; such as ops@elastic.ventures for specific workflows (mail routing & forwarding rules); 
+I don’t ever want emails going to you@elastic.ventures;  you can use something like ops+marag
+Google Apps
+LucidCharts
+
+
+eva.core Github
+There is a private github repo called “eva.core” in the github.com/elasticventures account; it contains everything and is referred to as the Core.  What is everything? Well that’s the dream - to keep every document, process, and knowledge in a well organized, searchable, and “blame” attributable/diagnosable trip.   This includes both code, and business processes which will be documented together (whenever possible).   To get access register for a free account at github.com, upload your slack icon and request access in #ops. 
+AWS
+When multiple people are sharing the same #aws account with multiple operators things can get messy. 
+
+
+
