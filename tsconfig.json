@@ -1,10 +1,27 @@
 {
     "compilerOptions": {
-        "outDir": "./built",
+		// Search under node_modules for non-relative imports.
+		"moduleResolution": "node",
+        "outDir": "./dist",
         "allowJs": true,
-        "target": "es5"
+        "target": "es5",
+        // Target latest version of ECMAScript.
+        // ALT "target": "esnext",
+        
+		// Process & infer types from .js files.
+		"allowJs": true,
+		// Don't emit; allow Babel to transform files.
+		"noEmit": true,
+		// Enable strictest settings like strictNullChecks & noImplicitAny.
+		"strict": true,
+		// Disallow features that require cross-file information for emit.
+		"isolatedModules": true,
+		// Import non-ES modules as default imports.
+		"esModuleInterop": true
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "src"
     ]
 }
+	
