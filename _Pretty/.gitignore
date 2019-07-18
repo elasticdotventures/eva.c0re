@@ -3,6 +3,7 @@ js/vue-app/package-lock.json
 node_modules
 *.zip	// please decompress
 package-lock.json
+*/*/package-lock.json
 *~
 
 
