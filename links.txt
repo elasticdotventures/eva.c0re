@@ -1,0 +1,37 @@
+#|| http://elastic.ventures/#search:slack
+#|| domain|code|link
+
+elastic.ventures|sme-nda|https://docs.google.com/document/d/1ZatZw6ZSwyzOSUXrZWOPO5sfPSZ8Ldp6BFuHtC_cc60/edit?usp=sharing
+elastic.ventures|slack|https://join.slack.com/t/elastic-ventures/
+elastic.ventures|slack-avatar|http://southpark.cc.com/avatar
+
+elastic.ventures|spinavision|https://docs.google.com/document/d/1dq26So5GDKo2Qzfuo74YZrBf7nOQIGHYx1iUDSk443E/edit
+elastic.ventures|human||https://docs.google.com/document/d/1viCi-W3TiCDFEBbE35hYEQIabC4SW-Iki75aZKxx7dk/edit?ouid=109180140295786224546&usp=docs_home&ths=true
+elastic.ventures|jobs|https://docs.google.com/document/d/1viCi-W3TiCDFEBbE35hYEQIabC4SW-Iki75aZKxx7dk/edit?ouid=109180140295786224546&usp=docs_home&ths=true
+elastic.ventures|careers|https://docs.google.com/document/d/1viCi-W3TiCDFEBbE35hYEQIabC4SW-Iki75aZKxx7dk/edit?ouid=109180140295786224546&usp=docs_home&ths=true
+elastic.ventures|cyberpunks|https://docs.google.com/document/d/12VEqqdgB-Lwi3gTNCr9fplNF3B7G-pLi8f1chTVOFg8/edit
+elastic.ventures|ops|https://docs.google.com/document/d/1clEQo7lPTdioYZvLC072mY7DupQUme5TzspsglpAxX8/edit
+elastic.ventures|general|https://docs.google.com/document/d/1E7A9f7T4lUCt-m4jSQ44SxjgCZoWSJwkDr8Vgezy9Nk/edit
+elastic.ventures|slack|https://files.slack.com/files-pri/T2R4CEY5B-FBV88CTU0/262900-p548xe-399_expanded_2.pdf
+elastic.ventures|setup-phone|#phones
+elastic.ventures|phones|https://docs.google.com/document/d/1rQhZSEnCWPaqdP5WhdIbm5q3Rdimne2wqZKMhrcBb5Y/edit
+elastic.ventures|suppliers|https://docs.google.com/spreadsheets/d/1ggYgUUJMrzTTMUF3Na7Uw0QZiaTDA4n-RFVyKsAn-Hs/edit#gid=0
+elastic.ventures|jargon|https://github.com/elasticdotventures/eva.core/blob/master/jargon.md
+
+elastic.ventures|presentation|https://docs.google.com/presentation/d/1KWxFBtoSdPY5MYndi2UVdDklcrCALX18_uq6hEfCcXs/edit#slide=id.p4
+elastic.ventures|commercerack-video|https://drive.google.com/open?id=0B4cQ6fhsPTo3NXhweFMwNHRpZGc
+elastic.ventures|cake|https://github.com/elasticdotventures/eva.core/blob/master/cake.md
+elastic.ventures|r2d2|https://docs.google.com/document/d/1xXAnLZohOxO95gsVXGz6iqJ2BwpZaj24C0fXgC7HOWM/edit
+
+elastic.ventures|salespunks|https://docs.google.com/document/d/1ECrMzfBJDsHu7hWgBngankN4SknJq6nvVh9ND5tjMLY/edit
+elastic.ventures|growbot-video|https://www.youtube.com/watch?v=_d4SeumFVjw&feature=youtu.be
+elastic.ventures|commercerack|https://drive.google.com/open?id=0B4cQ6fhsPTo3NXhweFMwNHRpZGc
+
+b2bcbd.us|summary-isolate|https://files.slack.com/files-pri/T2R4CEY5B-FBV88CTU0/262900-p548xe-399_expanded_2.pdf
+b2bcbd.us|presents|https://docs.google.com/presentation/d/1E8Y0CFT7RlWT-DJ85x1y0YMEbBf3kdaIPsmMxzEytlk/edit#slide=id.g35f391192_057
+b2bcbd.us|b2bcbd-survey|https://docs.google.com/forms/u/1/d/1J7CeWnTsCL5waLsq49QXP5-henKAeKDFUWhRJed_oBQ/edit?usp=drive_open&ths=true
+
+growbot.online|presentation|https://docs.google.com/presentation/d/1klQxcrSNuq4mFeNxw-ZPJMrCSLZ2IP5TTQiw10CGvHs/edit
+growbot.online|ycombinator|https://www.youtube.com/watch?v=_d4SeumFVjw&feature=youtu.be
+elastic.ventures|presents-growbot|https://docs.google.com/presentation/d/1klQxcrSNuq4mFeNxw-ZPJMrCSLZ2IP5TTQiw10CGvHs/edit
+
