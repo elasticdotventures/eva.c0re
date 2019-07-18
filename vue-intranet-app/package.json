@@ -26,7 +26,8 @@
     "vue-router": "^3.0.3",
     "vue-svgicon": "^3.2.6",
     "vuetify": "^1.5.16",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "webpack": "^4.35.3"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -78,7 +79,10 @@
     }
   },
   "postcss": {
+    "parser": false,
+    "map": false,
     "plugins": {
+      "postcss-plugin": {},
       "autoprefixer": {}
     }
   },
