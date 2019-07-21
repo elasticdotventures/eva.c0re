@@ -1,9 +1,38 @@
-// recurring dates.txt
-// Holidays()
-____1225 winter holiday
+# recurring dates.txt
+# Holidays, business dates. 
+
+____1201 @eva #red_team 🍰💰 winter seasonal "relax"
+____0901 @eva #red_team 🍂💰 fall epic "finish"
+____0601 @eva #red_team 🍰💰 summer epic "show"
+____0301 @eva #red_team 🍰💰 spring epic begins
+____0101 @eva #red_team 💀 yei'r in review (goals and strategy)
+
+____0701 @eva #compliance 😇 meeting (EV board of directors shared holder report)
+____1101 @eva #cyberpunks  fall code lock; winter is coming. 
+____1101 @eva #prototypes ^^^^ coverage election 🍰 :cake: exchange. 
+
+____1101 @eva #wellness health plan, open enrollment.
+____0901 @eva #wellness health plan review. How are yei doing? 
+____0601 @eva #wellness health plan review. How are yei doing? 
+____0301 @eva #wellness health plan review. How are yei doing? 
+____1201 @eva #wellness health plan review. How are yei doing? 
+
+____1212 @eva #general start of "winter break"; join the partyei https://meet.jit.si/elastic-ventures/channel-general
+____0101 @eva #general end of "winter break"
+
+____1225 @eva #holiday winter holiday. 
+
 ____1226 pagan christmas
 ____0504 may the 4th be with you
 ____0711 free slurpee day 
-19670714 @pokey 🎂
-19760408 @b 🎂
+
+# business dates
+____0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
+
+# Personal dates
+19670714 @pokey 🎂 birthday
+19760408 @b 🎂 birthday
+20140701 @b 🤝 hire date
+20191101 @fabio 🤝 hire date
+20190301 @margaret 🤝 hire date
 
