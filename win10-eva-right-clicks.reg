@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings]
+"Position"="Middle"
+"Icon"="SystemSettingsBroker.exe"
+"SubCommands"=""
+
+; Settings home
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd]
+"Icon"="SystemSettingsBroker.exe"
+"MUIVerb"="Settings"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\01subcmd\command]
+@="explorer ms-settings:"
+
+; System
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd]
+"CommandFlags"=dword:00000020
+"MUIVerb"="System"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\Shell\Settings\shell\02subcmd\command]
+@="explorer ms-settings:display"

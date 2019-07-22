@@ -1,2 +1,100 @@
-The evb repository is intellectual property of
-Elastic.Ventures 
+
+The EVD is intellectual property of Elastic.Ventures v1.
+License EVD-1
+
+Hi Hackernews; 
+This license is in response to the 10x engineer conversation; and recent state of the planet in terms of nationalism
+and fasiscm which are on the rise.  The worlds richest men are heading for space and our doomsday clock is only a few 
+minutes from midnight as we enter the dawn of neuromorphic computing with self-installing robotics.  
+Fake news is about to turn into fake audio, video, and CRISPR gene edited humans are now living amongst us. 
+
+This is designed to fix some of the trolling and nationalist amplification platforms.
+
+The EVD license is in development, as the software becomes more useful
+BSD license with modifications:
+
+Contribution packages from other repositories remain the property of their owners;
+except changes make within this archive. Licenses retained by other authors 
+include all OSI license models.  This document reserves the word:
+    * MUST: #compliance is not optional.
+    * SHOULD: reasonable effort must be made.
+    * WILL NOT: this use or application is strictly forbidden. 
+
+The software in this repo is free; based on new work and derived from other 
+open source software licenses.  Open source software licenses, together with the Internet have created a 
+new environment for collaboration that must keep pace with technology as it advances. 
+
+These policies are organizationally determined by Elastic.Ventures crew called "yei";
+
+
+Researchers and individual hobbiests are free to use this software on their own project(s) 
+provided it does not become a service offered to others. 
+
+To use our software; or any part of our software an organization must agree to abide by:
+
+* Safety First
+    No weapons, or publication of hate speech online. 
+    No device, whose explicit design is a weapon or weapons control system may incorporate the software or hardware designs in this repository.
+
+* No Trolls
+    Respect individual rights; treat other #humans as you would want them to treat you. 
+    No person who is found by a court to be convicted of hate speech or genocide may use this software.
+    Additionally; any company which has a director which has been found by an international court or body to have done such behavior in a public forum may use this software. 
+    B-corporations: environmentally friendly "sustainability" goals including recycling
+
+* Democratic Interference
+    The right to choose leaders (directly or indirectly) is a fundamental human right.
+    Humans which do not want to leave
+
+* No warranty; or suitability for any claim is made without review of application. 
+    Sorry, but if it doesn't work - it's not our fault; please let EV know how we can improve this. 
+    Commercial licenses are available. 
+
+* Don't be an asshole; demonstrate iterative improvement towards a better planet. 
+    If you pollute or do not recycle when the option is available, you MUST NOT use this software
+    If your product has rivets which make it unrepairable on pieces which are likely to break; you MUST NOT use this software
+
+
+
+
+* Safety, warranty, and recyclability. 
+* Fair pay for all #human labor "Living Wage" including time off for paternity leave; and health coverage for employees. 
+* Fair distribution, no more than 25% increase over costs of labor, goods and services #sorrynotsorry #bigpharma 
+* 
+
+
+No-copy & Run 
+
+About the Author:
+🚀 Hi, I'm @b; or "Rocket" to many of my friends. Friendly computer guy, with a background in testing early open-source software
+and designing cloud scale API's.  I've recently gotten in hardware, and electronic and sensor design. 
+
+I've been doing Internet stuff for about 28 years (age 43 now); licensed tax-paying computer IT consultant since age 13 grew up in 
+a California farm town with muggle parents and learned technology on my own through reading; and early 1994 Internet access. 
+Security, encryption and distributed computing were my childhood interests (31337 h4x04 sc1pt k1dd3). 
+I'm one of the white, male, born in American "smart" people who have left the US as a digital nomad 
+travelling to 44 countries in the past 3 years. 
+
+I currently study the arts of cooking, engineering, mechantronics, and AI.  I speak 6 languages at various degrees
+of fluency. I don't see myself as a 10x; althought I love what I do so I try to do it better than everybody and that isn't always
+well understood. I've won lots of first-to-flag challenges and been a paid technology consultant to a variety of companies such as
+Amazon, eBay, Paypal, FedEx, and a few others. 
+
+I currently live in Australia with my girlfriend.  We all share the same planet; I'm developing the EV tool chain to run my own
+automation and intelligence amplification devices.
+
+Additionally global companies like Amazon founder Jeff Bezos are focused on leaving
+the planet rather than trying to fix it and create a better world should be reminded that spending an equal amount of 
+money trying to fix the current system is probably the best course of action.  So I'm suggesting that conscious consumerism.
+
+Attribution Credit to
+friends*, you know who you are. 
+The Mentor, for the early-ethics lesson https://en.wikipedia.org/wiki/Hacker_Manifesto
+Linus Torvalds, for sharing and explaining your work so patiently to us, opening my world. https://en.wikipedia.org/wiki/Linus_Torvalds
+Bruce Scheiner, for showing us how to find shortcuts. 
+Lawerence Lessig, (and EFF, ACLU) for explaining to me why I should care about intellectual property, free speech, etc.
+Gates Foundation, Bill, love the work you do - it seriously inspires me. 
+Arnold Schwarznegger, dream big enough and want it bad enough, just keep getting better. Der Weg ist Das Ziel! 
+
+
+

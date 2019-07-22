@@ -1,29 +1,32 @@
 
-
-
-** Confidential; please do not distribute!  AS YOU READ PLEASE USE THE GOOGLE COMMENT FEATURE TO ASK QUESTIONS OR MAKE SUGGESTIONS. 
-
+GrowBot : robot contenedor de cultivo
 
 Related Documents:
 CAD files:  
 https://cad.onshape.com/documents/25a8c07f740a142456e75a9a/w/7141350cd52e6f56236dfefb/e/926b91712b65901056fac3ad
 Needs revisions due to 3 LIN wire configuration; currently 4 wire CAN
 Replace GBPI connectors with automotive 3 pin and wire gauges for 5v. 
+
 Slide Deck:
 http://bit.ly/elasticventures-growpotbot
+
 Original Business Plan Concept (obsolete)
-https://docs.google.com/document/d/1yc40f-2bAT1PHWPuw5Kjon7FpP9khWAvrAZfCo2ZH3A/edit#
+[https://docs.google.com/document/d/1yc40f-2bAT1PHWPuw5Kjon7FpP9khWAvrAZfCo2ZH3A/edit#]
+
 Earlier Revisions
 MVP A (obsolete)
-https://docs.google.com/document/d/1LgiFVHFWSE1na5NtCoHCOSXM-eUPyGu3x6_61xXtoSk/edit
+🦨 [https://docs.google.com/document/d/1LgiFVHFWSE1na5NtCoHCOSXM-eUPyGu3x6_61xXtoSk/edit] 
+
 MVP B (obsolete)
-https://docs.google.com/document/d/1d_j0_PmCoj4SQjCngVlhwKP6mr3o_HrShNq4TvaQqxs/edit#
+🦨 [https://docs.google.com/document/d/1d_j0_PmCoj4SQjCngVlhwKP6mr3o_HrShNq4TvaQqxs/edit#] 
+
 The Adventures of GRowBOT (a non-technical “style” and UI guide // needs revisions)
-https://docs.google.com/document/d/1MFW5G_-u5K8SVERlzvUBFsMYYdzspyCP8rpH8wEUjfA/edit#heading=h.w413exagw8ou
+[https://docs.google.com/document/d/1MFW5G_-u5K8SVERlzvUBFsMYYdzspyCP8rpH8wEUjfA/edit#heading=h.w413exagw8ou]
+
 Supplier Spreadsheet:
 https://docs.google.com/spreadsheets/d/1ggYgUUJMrzTTMUF3Na7Uw0QZiaTDA4n-RFVyKsAn-Hs/edit#gid=2037530597
 
-
+MVP D :  this document (authorative as of dt201907 @b #compliance)
 
 hardware
 STM32F030F4
@@ -33,29 +36,61 @@ info: https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STM32F030F4P6_C32908.
 buy: aliexpress; https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32F030F4P6_STM32F030F4P6_C32908.html
 
 
-circuit diagram
+circuit diagram(s)
 http://www.circuitdiagram.org/24v-to-12v-converter.html
 
+🍰 we need to design some of these on custom PCB's so yeI can work on the cases; certain tests are currently infeasible.
+hardware: Need to develop OV2640 or equivalent camera interface, get working with espressif framework.
 
-
+🚀 !todo need to work on wifi setup and boarding routines in software with @tim . 
 
-Current status // Recent Changes
+@tim 
+We will need a mobile app to interact; this will be done in nativescript; using vue.js. 
+Please install the [install.md] in the root of the repo to access the chocolately scripts. 
+I'm suggesting we start there; at the provisioning step -- open to other ideas how to chip away at this iceberg. 
+I'm happy to use the github issues system if you'd like to create some project management and timelines; or maybe that's a bit premature. 
 
+Defining the protocols that will be used; 
+how the system will work from the ESP32 software; and then move out to the other systems which will hopefully run on STM32F103's for the edge.
+The goal is to have a million of these things in the field and not be overrun with support issues; even if we take shortcuts "get it working"
+we should try to adhere to a scalable pattern as much as possible; use and develop libraries when available. 
 
+The various subsystems in growbot break into Lower/Middle/Upper/sections; and the SLUG is in the middle. 
+The middle section is the SLUG; which has the WIFI; etc.
+🐌 (it's a slug because it moves around the container on a rail).  The final shape will depend on the sensor configurations; 
+but generally will be flat with a OV2640 camera connected to the ESP32.  
 
+🚀 My assumption is we that using 4 or 8 GPIO pins yei could multiplex 128+ low bandwidth sensors; 
+but I don't explicitly know how to do that. 
+The GPIO for sensors if we need to (and yei probably will need to); but we can start with simple 
+GPIO and add the muxing as the complexity grows.  
+It's just important to consider having a source of truth for all data.
 
+In that sense; github provides the RCS "Revision Control System" for our designs.  My primary concern right now is doing some
+interop testing with the PCB file formats to design them in a way we can validate them later using something like:
+http://ngspice.sourceforge.net/
 
+In that sense; we will end up developing both a position system and a movement system (with GPIO switches to detect environment). 
+The whole system will be connected with a LIN (Local Interconnect Network); the STM32 and ESP32 both support LIN as a low bandwidth serial protocol; 
+and as much as possible we'll want to use that serial protocol [protocol.md] 
 
-@all  at this point i’m available for 3 more weeks - then out of office on Feb 20th - for basically 6 weeks of business travel, which at this point will be mostly wasted since the electronics in the prototypes aren’t even CLOSE to ready.   Given the recent lack of progress; and massive holiday momentum loss I’ve picked the arbitrary future date of July 1st as the new project “drop dead date”.  
+# Current status // Recent Changes
 
+# 201907
+🚀@b I can experiment until October 1st; after that I'm offline for a few months; until I'm in the USA. 
+I'm suffering from knowledge fatigue; too many specializations.
+Electronics in the prototypes aren’t even CLOSE to ready; no delivery yet from #touit but happy to have @tim just joined the project. 
+Given the recent lack of progress; we missed the July 1st as the new project “drop dead date”; but perserve regardless. 
 
-I.e. if this project is not at a final revision by July 1st; i.e. a working prototype with basic components that can be mass produced; AND if the company has not received at least $500k in funding commitments to proceed with manufacturing; then I’m going to shut this down.  I’m already receiving pressure to start contributing and getting a regular office job; it is not fair for Wendy to support me indefinitely.  As such; everybody involved is on notice. 
+I’m already receiving pressure to start contributing and getting a regular office job; it is not fair for Wendy to support me indefinitely.  As such; everybody involved is on notice. 
 
 I will continue to chip away on my own; but I really expected a much higher level of contribution from everybody involved.  If you aren’t sure what YOUR role in this is; then let’s chat. 
 
 @colin - in our last conversation on 20190125 - you proposed two high level changes:
 Replacing the CAN bus with LIN (Local Area Interconnect) due to price & complexity
 Implementing small embedded processors (STM32f030F4 ) in the upper, lower, and sled assemblies.
+
+# HOW MANY WIRES?
 
 My thoughts: 😄 Yes; these are good changes .. of course; they requires some non-trivial rethinking of the existing physical models; doh! So the bad news: 😱 The 3 to 4 wire; has a ripple effect through the entire project; i.e. a non-trivial # of the cad designs will need to be rethought and/or torn down to handle a processor and we’ll treat this new major revision -- accordingly this document is named “MVP C” which I’ll try and hobble together over the next few days; into a cohesive “it does this; it doesn’t do that” -- honestly the electronic designs are lagging. @colin and @dvizma; 
 
@@ -68,25 +103,9 @@ My goal for each of these upcoming revisions is to create a basic module + inven
 Assuming you are on board with this -- what tracing software would you recommend we use to accomplish this?  Let’s get a time on the calendar for a 1:1 training session “how you do this task” 
 
 
-
-Announcements: Fun Stuff
-*type of fun varies by individual. 2
-
-
-Researching Electronic rail systems; maglev movement - wondering if the rail could be a giant magnet - i think the hippy would like the fact we’re using magnets. 
-
-Flow meter; water level sensors for the bucket - so easy; won’t cost much to fabricate a water level pump and flow pipe. 
-
-Testing Standards; starting with MVP “C” the following assertions will be true for any program or part of the system to be codified into what I intend to be a broader company vision & value system for shared module testing and collaboration.  I.e. “does code work or not?”;  i.e. “production ready”;  and so it will eventually deal with mundane implementation details; which I assure you probably seem innocuous but if we incorporate these test and verification patterns in both hardware and software; our product will be SO MUCH BETTER; but it takes a lot more time to develop a system like that.   
-
-Anyway; enough soapbox.  I’m going to use the word “MUST” (in capitals) and “WILL” (future tense); when systems are implemented properly they will behave as expected.    The words “MUST” can be resolved with code or in the physical world using testing automation platforms.  I’m going to attempt to (dis-?)articulate multiple layers of the stack. 🤣
-
-🚀 Every library or component yei create MUST have at least one test or it is considered failing.
-
-🚀 Code or libraries which are failing test
-
-Tier 1 & Tier 2 vendor strategy (FoMo)
-FoMo “Fear of Missing Out” is a psychological behavior which frequently signals a neurological response from the amygdala region of the brain in most people (although it is only part of an individuals decision making structure).  Using FoMo as part of a rapid sales cycle to accelerate prospecting of best fit retailers for this product.  I.e. we’re going to need to make X units; solve for X at some point the process.  
+# Lower Assembly
+* Flow meter; water level sensors for the bucket
+@colin - shouldn't cost much to fabricate a water level that would test water and flow.
 
 GrowPotBot is a new product; people don’t search for it.  Even if they see it online; people will want to see this before they buy it; so a physical presence is critical in my opinion (and I don’t think it will be difficult to market it to different shopping channels).  We should be working directly with large retailers like Home Depot; etc.    If we intend to be stores for Xmas 2019 instead of 2020 we need to able to use FoMo. 
 

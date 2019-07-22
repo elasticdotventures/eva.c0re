@@ -6,21 +6,65 @@ Purpose: references and explanations of our language; lore; and culture.
 
 ### LEGAL PREAMBLE
 In the event of a contractual dispute this guide shall determine the intent of any meaning.
+Please review individual channel use. 
+
+## Emoji-friendly EV HyperSyntax Reference
+Hypersyntax jargon allows EV to organizationally overlap concepts; and makes study easier 
+by defining abstract terms such as success, failure, thing to increase neural plasticity
+and simplify explanation.  jargon is our dictionary of terms yei'r using across channels.
+Channel captains (🍒) are encouraged to submit yei improvements and join #red_team. 😜
 
 # Slack and Documentation Minimum Survival Guide
+
 
 ## :yei: ``:ev:``
 You, I, Us, We, He, She, They, It, 100% non-discriminatory universal galaxy wide;
 shows respect and deference to the collective organization. 
 
-## :dongxi: ``:thing:`` 
-a thing; anything in chinese.  
+💡 Vocabulary: Yei, yEi, yeI  
+* 🐥 Yei means "Elastic.Ventures" EV Automation; with you and I.  
+* 🤓 Syntax; !tonepractice.  Capitalization y=flat tone; Y equals high tone. 
+* !soundtrack *note still searching for a soundtrack; g-pain can you help me? !execute gpain .. doh. doh. doh. .. sound of music; autotuned.  
+* !soundtrack periodically switching to john cleese voice; ministry of silly walks. 
+* yei collectively is you + eva & "I". 
+* Yei means mostly "You"; Y + ei which still means "us", "we", "yei" in both present and future tense. 😎
+* yEi means mostly @Eva the "Emoji Virtual Assistant🤖"; in this with y+i "us, You & I"
+* yeI means "I" the author; with you and @eva automation "us" ; 
+* "yei" is you, i, us, in both present and future tense. 
+* yei'r is a contraction of yei+are or "the hive is now" 
+* *yei is any operating person or process in the Hive. 
+* YEI is the entire hive-mind; You and I inclusive 🤝👍 
+* YeI is mostly You and I; with the rest of the hive crew as backup.
+* YEi is the lonelist since I am excluded or at least less involved "You all" 
+* Phonetically "Yee" like "Yeehaw Cowboy" 🤠 it is synonmous with "EV" (or Elastic.Ventures)
+* A poem to Yei. How I love EV; by at 🐝;  .. (yei EV) 
+
+## ^^^ ~👆
+This references 
+
+## :spock: "Yei"
+🖖 Yei'r #Welcome #Human and #Bot_Eva!;  🚧🏗👷‍♀️👷‍♂🤦🤖‍  a way to say hello "cross species"; a polite will display this greeting. 
+The "Y" salute (also known as the vulcan :spockhand: in slack) signifies both "live long and prosper" and "one of us"; part of the Hive() event loop. 
+It is the appropriate wave on a video call.  The double yei; 🖖🖖 "double yei" is for #compliance.  
+
+## :timed: ⌛ 
+this exercise is timed; or the password entry is timed prior to mandatory lockout or turkey. useful in capture the flag situations. 
+
+## :flag: 🏴🏁🏳🚩🎌
+A type of :skunk: usually for #compliance, see also :blackspot: 
+
+## :blackspot:  🖤⚫🏴⬛
+The color black is usually associated with counter culture. Our glyph systems represent this :skunk: 🦨 ; 
+
+## :dongxi: ``:thing:``
+a thing; anything in Mandarin Chinese. A growpotbot would be a 
 
 ## :cake: ``:cake:`` 
-part of the "cake.md" system;  
+part of the [cake.md] system;  
 when you see a 🍰 TIP follow the instructions to earn cake.
 Note: posting other sweets such as :candy: is just teasing! 
 If yei give 1 :cake:; yei get 1/100th a :cake:;  
+
 :cake: allows you to "buy in" to projects; with a virtual stake; virtual
 'guan-xi' that yei bring; in terms of desirability relative to other yei.
 The amount of :cake: you have; determines yei vote in projects. 
@@ -28,15 +72,19 @@ The amount of :cake: you have; determines yei vote in projects.
 new projects.
 
 ## :nerd: ``:nerd:`` 🤓
+Extra reading; background. 
 A block of EXTRA CREDIT (not required) supplemental reading. 
 An inline footnote or link to additional information.
 
 ## :turkey: ``:turkey:``
-One or more items that did not properly fit the task requirements attributed at least in part to
-the individiual yei that is sharing in the blame. 
+A feedback response designating 
+one or more items of a collection that did not properly suite the task requirements 
+attributed to the individiual yei that is sharing in the blame. 
+Failure to meet goal after X attempts is a turkey.
+See also: :skunk: 🦨   
 
 ## :accord: ``:handshake:`` ``:charter:`` ``:treaty:``
-It's all same-same; An agreement between two or more parties; a reference to electronic contract or agreement. 
+An agreement between two or more parties; a reference to electronic contract or agreement. 
 
 ## :booty: 
 the symbol represents money or fungible (pawn-able) goods; any currency; including :cake:.  
@@ -120,7 +168,7 @@ is the emoji responses which are applied to a post in a channel.
 ## fast-fail
  small tests to gauge interests
 
-## fng "Fucking New Guy"
+## fng "Fucking New Guy" also n00b, or noob
  A misogynistic reference for a new hire within an organization who does know the culture and often makes mistakes. 
  The person who ends up getting a lot of the crap work because they are low man on the totem pole.  
  One of the many uses of "Wanna Fuck" http://www.angelfire.com/or/mckennap/fuck.html
@@ -131,6 +179,9 @@ Organizations can be fined up to 4% of annual global turnover for breaching
 GDPR or €20 Million.
 https://eugdpr.org/the-regulation/gdpr-faqs/
 
+## Grumbull 
+(Albanian hive word) "Grumble in english" A grumbull is a "pile" of something; dongxi's (things); people; anything. 
+Yei would be correct() to say a Grumbull of skunks smells pretty bad. 
 
 ## (channel) #general
 the general channel welcomes you to Elastic.Ventures
@@ -169,7 +220,7 @@ to test 'grace under failure';
 https://en.wikipedia.org/wiki/Kobayashi_Maru
 
 ## master arbiter
-a non-invested party who still posesses significant expertise in the field or topic of question.
+a non-invested party "advisor" who posesses significant expertise in the field or topic of question.
 a '2nd level' more extensive review. Ultimately leading to #red_team supreme arbiter. 
 
 ## meme
@@ -190,6 +241,10 @@ the number of units in a case of products; minimum cases for an order.  What’s
 ## nda "Non Disclosure Agreement"
 a legally binding document that prohibits disclosure of trade secrets or proprietary technical information.  
 The Elastic.Ventures NDA Is located at http://bit.ly/elasticventures-sme-nda
+
+## n00b (newb, newbie) 
+a new user to a system; usually enables the tutorial and makes the AI throw soft punches.
+EV segments n00b traffic separately to measure the success of a various flow.
 
 ## null (vote)
 the idea that it isn't a "yes" or a "no" it's something else;  when voting in a "shareholder poll";
@@ -268,6 +323,13 @@ a set of program instructions that is executed on a network; which is hopefully 
 ## sme
  Subject Matter Expert; Advisor; Consultant; Material Supplier; as defined by:
  [http://bit.ly/elasticventures-sme-nda](https://docs.google.com/document/d/1ZatZw6ZSwyzOSUXrZWOPO5sfPSZ8Ldp6BFuHtC_cc60/edit#)
+
+
+## 🦨 :skunk: emoji; 
+ A skunk represents smelly code; a single :skunk: is bad; a Grumbull of :skunk: is a problem. 
+ usedBy: 
+    * #prototypes : code review; 
+    * #cyberpunks : ^^^
 
 ## (channel) #travel
 are you going some place at some date; want to meet people within the organization?

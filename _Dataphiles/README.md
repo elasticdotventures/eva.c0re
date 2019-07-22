@@ -1,5 +1,7 @@
 Captain: @b
 
+Tools like AWS Quicksight are specialized in the #dataphiles channel; but will provide a variety of field telemetry data
+for iterative improvement in our algorithms. 
 
 ##  Neuromorphic Intelligence Level
 🚀 #pretty !file [jargon.md] Neuromorphic Intelligence: adapts to the audience.  
@@ -9,7 +11,7 @@ Factor of interactivity.
 Finite State Machine
 https://en.wikipedia.org/wiki/Finite-state_machine
 
-PseudoCode:
+🦨 PseudoCode:
 // Roughly: Interval between interactions
 mouseAnyClick
 scroll

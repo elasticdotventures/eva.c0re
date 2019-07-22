@@ -1,0 +1,34 @@
+{
+  "name": "eva.c0re",
+  "version": "0.0.1",
+  "description": "@eva",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-hapi": "^2.6.1",
+    "graphql": "^14.3.1",
+    "openapi-backend": "^2.3.4",
+    "serverless-offline": "^4.10.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elasticdotventures/eva.c0re.git"
+  },
+  "keywords": [
+    "aiia",
+    "ai",
+    "mechantronic",
+    "nodejs",
+    "elasticventures",
+    "#elasticadventures"
+  ],
+  "author": "@b",
+  "license": "SEE LICENSE IN ev-license.txt",
+  "bugs": {
+    "url": "https://github.com/elasticdotventures/eva.c0re/issues"
+  },
+  "homepage": "https://github.com/elasticdotventures/eva.c0re#readme"
+}

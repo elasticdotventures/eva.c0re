@@ -1,38 +1,41 @@
-# recurring dates.txt
+
+# _Dataphiles recurring dates.txt (used to define business periods, effects)
 # Holidays, business dates. 
+# file format:
+# 'd' day   (or dt) 
 
-____1201 @eva #red_team 🍰💰 winter seasonal "relax"
-____0901 @eva #red_team 🍂💰 fall epic "finish"
-____0601 @eva #red_team 🍰💰 summer epic "show"
-____0301 @eva #red_team 🍰💰 spring epic begins
-____0101 @eva #red_team 💀 yei'r in review (goals and strategy)
+d____1201    @eva #red_team 🍰💰 winter seasonal "relax"
+d____0901    @eva #red_team 🍂💰 fall epic "finish"
+d____0601    @eva #red_team 🍰💰 summer epic "show"
+d____0301    @eva #red_team 🍰💰 spring epic begins
+d____0101    @eva #red_team 💀 yei'r in review (goals and strategy)
 
-____0701 @eva #compliance 😇 meeting (EV board of directors shared holder report)
-____1101 @eva #cyberpunks  fall code lock; winter is coming. 
-____1101 @eva #prototypes ^^^^ coverage election 🍰 :cake: exchange. 
+d____0701 @eva #compliance   😇 meeting (EV board of directors shared holder report)
+d____1101 @eva #cyberpunks   fall code lock; winter is coming. 
+d____1101 @eva #prototypes   ^^^^ coverage election 🍰 :cake: exchange. 
 
-____1101 @eva #wellness health plan, open enrollment.
-____0901 @eva #wellness health plan review. How are yei doing? 
-____0601 @eva #wellness health plan review. How are yei doing? 
-____0301 @eva #wellness health plan review. How are yei doing? 
-____1201 @eva #wellness health plan review. How are yei doing? 
+d____1101 @eva #wellness health plan, open enrollment.
+d____0901 @eva #wellness health plan review. How are yei doing? 
+d____0601 @eva #wellness health plan review. How are yei doing? 
+d____0301 @eva #wellness health plan review. How are yei doing? 
+d____1201 @eva #wellness health plan review. How are yei doing? 
 
-____1212 @eva #general start of "winter break"; join the partyei https://meet.jit.si/elastic-ventures/channel-general
-____0101 @eva #general end of "winter break"
+d____1212 @eva #general  start of "winter break"; join the partyei https://meet.jit.si/elastic-ventures/channel-general
+d____0101 @eva #general  end of "winter break"
 
-____1225 @eva #holiday winter holiday. 
+d____1225 @eva #holiday  winter holiday. 
 
-____1226 pagan christmas
-____0504 may the 4th be with you
-____0711 free slurpee day 
+d____1226 @eva #random   merry pagan christmas
+d____0504 @eva #random   may the 4th be with you
+d____0711 @eva #random   free slurpee day 
 
 # business dates
-____0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
+d____0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
 
 # Personal dates
-19670714 @pokey 🎂 birthday
-19760408 @b 🎂 birthday
-20140701 @b 🤝 hire date
-20191101 @fabio 🤝 hire date
-20190301 @margaret 🤝 hire date
+d19670714 @pokey 🎂 birthday
+d19760408 @b 🎂 birthday
+d20140701 @b 🤝 hire date
+d20191101 @fabio 🤝 hire date
+d20190301 @margaret 🤝 hire date
 
