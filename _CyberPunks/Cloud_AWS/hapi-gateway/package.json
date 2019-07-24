@@ -1,7 +1,7 @@
 {
-  "name": "hapi-lambda-demo",
+  "name": "hapi-gateway",
   "version": "1.0.0",
-  "description": "An example of running Hapi.js on AWS Lambda",
+  "description": "EV Hapi.js on AWS Lambda",
   "main": "index.js",
   "engines": {
     "node": "8.x"
