@@ -1,36 +1,46 @@
 
 # _Dataphiles recurring dates.txt (used to define business periods, effects)
-# Holidays, business dates. 
+# Holidays, business dates.  For now; this is the master list of dates; and
+# recurring tasks(), holidays, etc. 
+
 # file format:
 # 'd' day   (or dt) 
 
-d____1201    @eva #red_team 🍰💰 winter seasonal "relax"
-d____0901    @eva #red_team 🍂💰 fall epic "finish"
-d____0601    @eva #red_team 🍰💰 summer epic "show"
-d____0301    @eva #red_team 🍰💰 spring epic begins
-d____0101    @eva #red_team 💀 yei'r in review (goals and strategy)
+d0314 🥧 Pie "Pi" Day (March 14th) aka 3.14;  🍰 the time of the party starts at 1:59 UTC and continues for 26 hours; 53 and a ½ minutes.
+d0401 😨🤣 #April Fools (April 1st); 🍰 pranks must be pre-approved by #red_team. 
 
-d____0701 @eva #compliance   😇 meeting (EV board of directors shared holder report)
-d____1101 @eva #cyberpunks   fall code lock; winter is coming. 
-d____1101 @eva #prototypes   ^^^^ coverage election 🍰 :cake: exchange. 
+d1201    @eva #red_team 🍰💰 winter seasonal "relax"
+d0901    @eva #red_team 🍂💰 fall epic "finish"
+d0601    @eva #red_team 🍰💰 summer epic "show"
+d0301    @eva #red_team 🍰💰 spring epic begins
+d0101    @eva #red_team 💀 yei'r in review (goals and strategy)
 
-d____1101 @eva #wellness health plan, open enrollment.
-d____0901 @eva #wellness health plan review. How are yei doing? 
-d____0601 @eva #wellness health plan review. How are yei doing? 
-d____0301 @eva #wellness health plan review. How are yei doing? 
-d____1201 @eva #wellness health plan review. How are yei doing? 
+d0701 @eva #compliance   😇 meeting (EV board of directors shared holder report)
+d1101 @eva #cyberpunks   fall code lock; winter is coming. 
+d1101 @eva #prototypes   ^^^^ coverage election 🍰 :cake: exchange. 
 
-d____1212 @eva #general  start of "winter break"; join the partyei https://meet.jit.si/elastic-ventures/channel-general
-d____0101 @eva #general  end of "winter break"
+d1101 @eva #wellness health plan, open enrollment.
+d0901 @eva #wellness health plan review. How are yei doing? 
+d0601 @eva #wellness health plan review. How are yei doing? 
+d0301 @eva #wellness health plan review. How are yei doing? 
+d1201 @eva #wellness health plan review. How are yei doing? 
 
-d____1225 @eva #holiday  winter holiday. 
+d1212 @eva #general  start of "winter break"; join the partyei https://meet.jit.si/elastic-ventures/channel-general
+d0101 @eva #general  end of "winter break"
 
-d____1226 @eva #random   merry pagan christmas
-d____0504 @eva #random   may the 4th be with you
-d____0711 @eva #random   free slurpee day 
+d1119 @eva #random   🚽🚹🚻🚺🧻 Happy Nov 19th, world toilet day! Sustainable Development Goal 6 aims to achieve sanitation for all and end open defecation. World Toilet Day exists to inform, engage and inspire people to take action toward achieving this goal. World Toilet Day was established by the World Toilet Organization in 2001. 🙏🧼😁
+d0919 @eva #red_team 🦜💀 Avast yei cyb3rrr p1r4t3 h1v3!  today is international talk like a pirate day! Beware of the kraken! ⚓🦈🦑🐙🌊
+d0214 @eva #random   happy valentines day
+d1225 @eva #holiday  winter holiday. 
+d1226 @eva #random   merry pagan christmas
+d0504 @eva #random   may the 4th be with you. 🍰 Post your best star wars memes in #watercooler. 
+d0505 @eva #random   cinco de mayo (Mexico's independence day); US binge drinking holiday. 
+d0724 @eva #random   today is international tequila day!
+d0711 @eva #random   free slurpee day (at participating locations)
+d0723 @eva #random   today, july 23rd is international sprinkles day and also international yada, yada, yada day (seinfeld tv show reference)
 
 # business dates
-d____0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
+d0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
 
 # Personal dates
 d19670714 @pokey 🎂 birthday
@@ -39,3 +49,7 @@ d20140701 @b 🤝 hire date
 d20191101 @fabio 🤝 hire date
 d20190301 @margaret 🤝 hire date
 
+#ALSO: 
+#No Release Friday; live systems (those which have clients who depend on
+#them) are NOT upgraded on Fridays; to avoid burdening support person(s) and
+#clients on their weekends.

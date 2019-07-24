@@ -353,3 +353,10 @@ Google
 Azure
 Oracle
 I really dislike Oracle, on a personal level for their heavy handed and often dubiously-ethical  business practices stemming from Database licensing.  If you are dumb enough to get locked into their cloud, somebody in your organization is probably getting a kickback.  Send a letter your state attorney. 
+javascript classes
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+
+class Eva {
+   constructor() {
+   }
+}

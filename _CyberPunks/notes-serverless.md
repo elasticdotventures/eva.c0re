@@ -6,10 +6,19 @@ license: ev-license.txt
 
 UsedBy:  _Bot_Eva
 WasUsedBy: various experiments. 
-Status: pr0d aws lambda.
-```
+Status: offline & pr0d lambda
 
-Commands
+
+
+```
+# Review
+npm start
+👆 runs `sls offline` port :3000
+👆 supports live code reloading. 
+
+
+
+# Commands
 * Yei can run commands with "serverless" or the shortcut "sls"
 * Pass `--verbose` to `sls` to get in-depth plugin info
 * 🙏Pass `--no-color` to disable CLI colors and formatting to avoid export suprises.
@@ -21,6 +30,7 @@ Framework
 `sls config` ........................ Configure Serverless
 `sls config credentials` ............ Configures a new provider profile for the Serverless Framework
 🍰 where is this stored?
+https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/
 
 `sls create` ........................ Create new Serverless service
 `sls install` ....................... Install a Serverless service from GitHub or a plugin from the Serverless registry
@@ -28,6 +38,24 @@ Framework
 
 `deploy` ........................ Deploy a Serverless service 
 ```log dt201907;
+
+
+# _CyberPunks/Cloud_AWS
+EVSecrets -- 
+
+## hapi-lambda-demo
+* npm start
+curl http://localhost:3000/
+curl http://localhost:3000/hello/user
+curl http://localhost:3000/health/check
+curl http://localhost:3000/health/status
+curl http://localhost:3000/health/201
+
+
+
+
+
+### 🦨 notes: 
 
 # sls deploy
 Serverless: Packaging service...

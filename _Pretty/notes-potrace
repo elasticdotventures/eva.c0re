@@ -1,3 +1,7 @@
+convert?
+
+
+
    --opaque       fill in the white parts of the image opaquely, instead of leaving them transparent. This only applies to interior white parts, i.e., those that are enclosed inside
                       a black outline. Opaqueness is always in effect for the XFig backend.
 

@@ -1,7 +1,5 @@
 
 
-
-
 svg/anonymous.svg
 Anonymous Mask-595b40b75ba036ed117d50a7.svg
 https://www.visualpharm.com/free-icons/anonymous%20mask-595b40b75ba036ed117d50a7#
@@ -12,3 +10,28 @@ This license allows free use for commercial use, but requires a link on each pag
 ## Better
 https://www.iconfinder.com/iconsets/anonymous-emoticons
 https://www.iconfinder.com/icons/876088/anonymous_emoticon_hacker_mask_pirate_icon
+
+
+# WikiFactory
+#troublemakers has requested this collaboration tool for hardware files; SVG; etc. 
+
+Acceptable File Formats
+SVG Icons:
+https://feathericons.com/
+	http://materialdesignicons.com/
+
+Upcoming
+EV Storybook 
+In eva.c0re
+https://www.youtube.com/watch?v=lIgiiScIjgg
+https://www.youtube.com/watch?v=9lQMmbITt0c
+SVG Vector Editor
+Inkscape
+Adobe Illustrator
+VisualStudio Code
+Name: SVG Viewer
+Id: cssho.vscode-svgviewer
+Description: SVG Viewer for Visual Studio Code.
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer
+
+
