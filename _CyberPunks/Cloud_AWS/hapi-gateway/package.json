@@ -1,0 +1,27 @@
+{
+  "name": "hapi-lambda-demo",
+  "version": "1.0.0",
+  "description": "An example of running Hapi.js on AWS Lambda",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "start": "sls offline",
+    "debug": "bash -c './debug-sls.sh offline'",
+    "deploy": "sls deploy -v"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "serverless-offline": "^4.10.6"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.1",
+    "@hapi/joi": "^15.1.0",
+    "apollo-server-hapi": "^2.6.1",
+    "graphql": "^14.3.1"
+  }
+}
