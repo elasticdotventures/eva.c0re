@@ -1,0 +1,200 @@
+
+
+
+https://medium.com/the-reading-room/how-to-create-a-simple-rest-web-service-with-node-aws-lambda-and-the-serverless-framework-4730c88cd39a
+
+https://stefanscherer.github.io/yes-you-can-docker-on-windows-7/
+https://docs.docker.com/install/linux/docker-ce/centos/#install-from-a-package
+
+https://www.npmjs.com/package/aws-sam-local
+
+https://github.com/lambci/docker-lambda
+
+https://docs.aws.amazon.com/lambda/latest/dg/serverless-deploy-wt.html#serv-deploy
+
+pip install aws-sam-cli
+/projects/vuejs/first-try/lambda
+
+
+----
+
+wow this is difficult to get working, first off on windows - i went down a rabbit hole.
+i normally develop inside an ubuntu powershell, i also tried windows powershell
+i can't run full docker, only docker-toolbox -- since i don't have windows 10 pro.
+i do have vmware workstation, and that will run ubuntu linux, which will run docker - so here are the commands i used.
+
+# download ubuntu iso
+sudo root bash
+
+apt upgrade
+apt install openssh-server 
+apt install npm
+apt install python-pip
+apt install curl
+apt install git
+
+
+yum install python2-pip
+** NOTE: python3 is NOT compatible with sam, we gotta use v2.
+then --
+pip install --ugprade pip
+pip install awscli
+
+aws configure 
+## install credentials
+## verify it's working by running: 
+aws s3 ls  
+
+// now time for some docker stuff
+curl -fsSL https://get.docker.com/ | sh
+sudo systemctl start docker
+## verify it's all working!
+sudo systemctl status docker
+## now to run docker at start
+sudo systemctl enable docker
+
+
+#### SAM
+## https://docs.aws.amazon.com/lambda/latest/dg/sam-cli-requirements.html
+pip install aws-sam-cli
+
+## sam lambda workshop
+git clone https://github.com/lucpod/aws-lambda-workshop/
+# tree/master/lessons/01-simple-hello-world-api
+cd aws-lambda-workshop
+npm install
+cd lessons/01-simple-hello-world-api
+
+
+## test your skills -- THIS WILL NOT WORK -- WHY? (hint: --data is a POST) 
+$ sam local start-api
+$ curl --data "{}" http://localhost:3000/
+
+## but this seems to work: 
+sam local invoke HelloWorldApi -e sample-event.json
+
+## let's try a "cold start" this will create a hello
+$ sam init
+$ cd hello_world; npm install
+$ sam local api-start
+$ curl http://localhost:3000/hello
+# {"message":"hello world","location":"176.63.20.117"}
+
+## next let's get a connection to redis
+
+
+## now, let's get the debugger working -
+## but the issue is, my api client isn't running in that container!
+## it's outside the vm, so now we need to make the container in the vm accessible to the world. 
+## so i added a local bridge network to my vmware instance. 192.168.244.x
+## vmware | player | manage | add network adapter | host only. 
+## then: 
+## 
+sam local start-api --host 192.168.244.129
+
+
+## NOT FINISHED: 
+## visual container manager: https://github.com/docker/kitematic
+## this command is your friend:  (lots of cool info)
+## $ sam local start-api --help 
+## https://github.com/awslabs/aws-sam-cli#invoke-functions-locally
+## https://docs.docker.com/network/bridge/#connect-a-container-to-a-user-defined-bridge
+## https://docs.docker.com/v17.09/engine/userguide/networking/default_network/binding/
+##$ docker network create rocket-net
+##$ sam local start-api 
+
+
+##$ npm install -g node-inspect
+##$ docker network create rocket-net
+## e543f496a184be3a8c6221ab2afd5ba0669a224fc659d4acb4f20d3c77835561
+## $  sam local start-api --docker-network rocket-net -d 5858
+## https://nodejs.org/en/docs/guides/debugging-getting-started/
+## ^^ the document above seems to imply node-inspect is "legacy" 
+
+
+
+
+## ROUTER PATTERN RESEARCH 
+## a *HUGE* number of projects on npmjs.com are broken, unmaintained, blah blah - since lambda introduced the proxy
+## type, and a lot of them are shim's which tye to other frameworks -- they are very brittle, in non-obvious ways.
+## this paper does a good job comparing the three 'popular' styles:
+## * https://www.airpair.com/node.js/posts/nodejs-framework-comparison-express-koa-hapi
+## https://www.npmjs.com/package/serverless-lambda-router
+## https://www.npmjs.com/package/lambda-restify
+## FAILED: aws-lambda-router
+## FAILED: param
+## https://www.npmjs.com/package/jambda
+## https://github.com/modofunjs/modofun
+## fastify, hapi
+## https://middy.js.org/   <-- I just don't like the framework layout here, it's sparsely documented, dubious quality. 
+## http://www.carbonatethis.com/hosting-a-serverless-hapi-js-api-with-aws-lambda/  // NOT HAPI 17 compatible. 
+## FAILED: 	https://www.npmjs.com/package/hapi-lambda   // NOT HAPI 17 compatible 
+
+## TESTING 
+## https://www.npmjs.com/package/serverless-offline-sns
+## https://www.npmjs.com/package/lambda-promise-interop
+## https://www.npmjs.com/package/serverless-http-invoker
+## https://www.npmjs.com/package/serverless-command-line-event-args
+## https://www.npmjs.com/package/serverless-offline-ssm
+## https://www.npmjs.com/package/serverless-mocha-pluginf
+
+## INTERESTING // ADVANCED
+## https://github.com/anaibol/awesome-serverless
+## https://github.com/Artificial-Engineering/lycheejs
+## https://github.com/biggora/caminte
+
+https://www.npmjs.com/package/nuxt
+
+
+## the context object (received in the router) 
+## https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-context.html
+
+## to simplify parameter handling i am using:
+## NOT NECESSARY WITH RESTIFY https://www.npmjs.com/package/@repit/lambda-param
+
+
+## to run sam:
+ sam local start-api --debug --host 192.168.244.129
+ curl  -d '{"credentials": "X"}' -H "Content-Type: application/json" http://192.168.244.129:3000/getTodos/joe
+
+
+***
+current blockers:
+* seems 'local' invoke still seems to require some internet connectivity // not sure why?
+* sam local start-api binds to 127.0.0.1 which is not accessible outside ubuntu vm
+* curl --data {} http://localhost:3000/hello returns "missing authentication token"
+  ^^ this is related to the url being incorrect. i.e. it works on lesson/01-simple-hello-world-api 
+  ^^ curl http://localhost:3000/helloworld   BUT NOT a post i.e. curl --data {} http://localhost:{000/helloworld
+  ^^ curl http://localhost:3000/helloworld?name=Brian works for sample 02
+  ^^ curl http://localhost:3000/hello works following a sam init (the default template.yaml)
+     ^^ originally got error becuase forgot to run npm install 
+
+** Atom Plugins:
+markdown-preview-enhanced
+https://atom.io/packages/markdown-preview-enhanced
+
+atom-mermaid
+https://atom.io/packages/atom-mermaid
+	 
+	 
+** TODO
+* dump environment variables
+* hosting a lambda + vue app i.e. index.js ?? 
+* deploying a lambda app
+* figure out parameters in router.  // sorta done. 
+* amazon x-ray integration?
+* debugger inside lambda
+* https://docs.aws.amazon.com/lambda/latest/dg/admin-lambda-apps.html
+* cognito interface
+* mocha testing for lambda functions 
+* iot button
+* order screens ship to michael & sarah 
+	 
+------------------
+
+https://hackernoon.com/a-crash-course-on-serverless-with-node-js-632b37d58b44
+
+https://github.com/awslabs/aws-sam-cli
+https://github.com/awslabs/serverless-application-model/blob/develop/HOWTO.md
+
+https://www.npmjs.com/package/aws-sam-local

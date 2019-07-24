@@ -1,0 +1,3 @@
+## Power Levels aka ACL (Access Control Lists)
+^^ 🤓💡 HINT: capitalization is important; a lower case letter such as “a” is considered “lesser” than a capital “A”; currently access levels are organizational per #channel. Generally “a” is “off hours, vacation access”; “A” is on-call or in-front of keyboard access (in building access). 
+

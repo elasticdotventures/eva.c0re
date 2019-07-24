@@ -34,6 +34,7 @@ module.exports = {
     */
     await server.register(require('@hapi/inert'));
 
+/*
     server.route({
       method: 'GET',
       path: '/json/crew.json',
@@ -41,7 +42,7 @@ module.exports = {
         
       }
     })
-
+*/
 
     // note: there MAY be a bug here; specifically with serverless offline
     // axios FROM BROWSER does not support gzip; looks like hapi does. 

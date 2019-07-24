@@ -1,0 +1,52 @@
+
+
+* create farmer profile
+  + email
+  + phone
+  + encryption
+* site profile
+  + address
+  + geograph
+  + envirmnent indoor/outdoor
+* new growbot
+  + genetics (type of plant)
+  + fertilizer
+* existing growbots
+  + shutdown
+  + change fertilizer
+  + report an issue
+  
+* optional modules
+
+
+---
+
+
+
+
+
+AccountRegister
+{
+Type: "Email|Facebook|Google"
+FacebookAuthToken: ""
+GoogleAuthToken: ""
+}
+
+Authenticate 
+{
+Type: Email|Facebook|Google
+}
+
+
+PlantDatabaseDownload
+{
+}
+
+GrowPotv1Sync {
+	UnitId: ""
+	UnitName: ""
+}
+
+
+http://docs.aws.amazon.com/iot/latest/apireference/API_Operations.html
+https://github.com/aws/aws-iot-device-sdk-js
