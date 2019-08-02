@@ -1,0 +1,233 @@
+Memo RE: 
+  * (G) Geico Case #
+  * (P) Progressive #
+  * (F) Foremost 
+  * (EV) Elastic.Ventures #Airstream
+
+Dear Geico, 
+
+Geico holds a trietary policy on the caravan, underwritten by 
+Foremost but purchased an administered through Geico.   
+
+Geico is also my insurance company and I am disappointed that Geico 
+is not accepting responsibility. 
+
+We are in the process of notifying the trietary insurance Foremost,
+which was sold via Geico. 
+
+As such, this letter to 
+Geico reflects some of my own thoughts as it pertains to "what 
+I'd want my insurance company to do".  I look forward
+to a discussion before we lawyer up.  Please don't close the case.
+
+Please preserve any witness statements you may have, and will you 
+please provide them for our review. 
+
+Elastic.Ventures is requesting a secondary review of this case. 
+Acknowledgement of responsibility in this accident from Geico. 
+
+Your position is that your driver who:
+ * admitted fault at the scene
+ * was in a rental car, with a low-visible color. 
+ * was cited by an officer for speeding & reckless driving. 
+ * was passing in, and was in an improper lane position,
+    * caused by improper passing manuevure (non-passing lane) by Geico driver
+        * another drivers passing manuever had not been completed.
+    * illegally using the gap established durings Ms. Woodfield's safe manuever
+    * passing in the truck lane 
+        * truck lane was reserved for Ms. Woodfield and EV Airstream, etc.
+        * per NTSHA road-safety "rules of the road" [Driving & Lane Position]
+        * causing the completion of Ms. Woodfields passing maneuvere
+            * before the Geico driver could legally begin
+            * as such; the time required for a safe passing manuevure
+                * would necessitate the driver had followed "passed with"
+                * and then proceeded to pass in the non-passing designated lane
+                * resulting in 'improper lane position' 
+        * which can be demonstrated by 
+            * gps, cellular data of the driver
+            * measurement of the vehicles
+                * calculus: time is  = speed (can estimate speed)
+                * Ms. Woodfield would have had "infinite time"
+                    * based on road conditions, to complete an overtake.
+                    * the moment Ms. Woodlfield assumed the passing position. 
+
+* tl;dr - no possible situation with this crash telemetry, using site
+measurements, that vehicles in those positions where the drivers insurance
+in the improper lane position is not responsible. Any statement to the 
+contrary is simply false or lacks those material facts / situational 
+awareness. 
+
+So I'm suggesting that EV requests the other drivers cell phone data
+(and we provide analysis); and that Geico could, as legally be entitled
+to request that data or to extract it from the other vehicle. 
+
+The rental car company may have this telemetry data as well (but since 
+her car wasn't hit; they probably didn't keep it). We don't need it;
+but a video simulation is important step in understanding what happened.
+
+Cell data is best -- we can see if the driver was distracted, or texting.
+At this stage; with proper phone analysis i.e. "does the Geico app track
+this information"; what information do we know about the other person?
+
+If her insurance isn't going to pay; then Progressive needs to involve her. 
+
+I love that about Australia, if you're texting and in an accident
+it's always the texting persons fault, just like the speeding
+persons fault, the reckless drivers fault, missing a stop sign 
+on a school bus.  Regardless; there is a human cost to those 
+decisions and fortunately everybody walked away unharmed. 
+Montana is such a lovely state; we are requesting a pre-arbitration
+meeting (un-arbitrated, but recorded) in Summer to discuss this matter. 
+
+The purpose of the insurance regulatory framework operates is to 
+behave as an reasonable disaffected intermediary between the parties,
+hopefully Geico, Progressive, et al. all see this as
+opportunity to engage in a constructive dialogue with EV about 
+our mutual interests in a resolution to this matter.  
+
+The Airstream is part of an R&D initiative related to other business
+matters; and we may seek additional damages as it pertains to engagement of 
+professional services if this matter is not resolved.  At this point 
+EV is still focused on the salvage of the limited edition artwork inside
+of the Airstream, as they pertain to CyberStream development.  The loss
+in value to us has been significant due to it's fabrication style. 
+
+I appreciate you do not want to accept blame, assuming we can't convince
+you to work with us - what are the next steps in your process? 
+(or does denying the claim terminate your responsibility in the matter?)
+Please review. 
+ 
+Federal NTSHA safety rules clearly state that licensed drivers 
+must maintain awareness of the vehicles and surroundings around them. 
+"Rules of the Road" that are codified in a Federal Safe Driving standard
+as both drivers were out of state.   This situation was "by the book"
+
+Because Ms. Woodfield had just passed a long commercial vehicle and
+moved ahead to maintain safe distance in order to return to the slow 
+"truck" lane; this is not optional on her part. 
+
+She was signaling intent to return to the lane (with no intention 
+to illegally stay in the passing lane),  achieved a safe distance 
+to return to the truck lane and then proceeded with the maneuvere.
+
+The word is "impatience". 
+
+In legal terms this means Ms Woodfields position was "reserved" as designated
+by the rules of the road, and relevant statuatory signage throughout
+the state. 
+
+Road rules clearly state Ms. Woodfield must return to the truck lane.
+Ms. Woodfield towing a unlaiden weight of 7,400kg aluminum riveted 
+trailer is not allowed in the passing lane except to pass, 
+(which had been done)
+and she is required to follow the law and return to the "truck lane"
+
+As such .. Ms. Woodfield has no responsibility beyond a failure to 
+recover from an unplanned maneuvere as she was in the process of
+compeleting a safely executed manuever, and the resulting crash 
+occurs due to a car being "out of position". 
+
+^^^ we need to concur with the officer confirming this.  
+
+The maneuvere reserved the lane for Margaret as soon as she was in the 
+overtake position (passed the first truck).  Textbook Autonomous Driving.
+If our auto-pilot system did what their driver did; we'd absolutely
+be fault!!  accepted responsibility and was cited. 
+
+Vehicle and celluar data (if reviewed) will indicate that
+the faulty driver was performing an illegal passing maneuvere -- on
+the incorrect side of the road; and would indicate the vehicle
+positions. I believe witness statements about lane position also 
+concur with this.  
+
+According to this statement of fact, it would mean that if Margaret
+had plowed into the other driver, and that
+the action chain which followed is therefore not the other drivers
+fault. [51% the primary responsible party]; so just to make that clear
+Geico only accepts responsibility if their customer gets hit, but 
+alas that is simply not accurate in any insurance context I'm aware of.
+
+EV designs Autonomous systems and #human life, is very important
+to us; as party of our commitment to employee safety. Attempting
+to avoid the accident is always the proper decision, and sets a 
+very dangerous precident for a future with autonomous trucks. 
+You wouldn't want us designing our software to drive like the 
+Geico driver and then NOT being held accountable? It's absurd.  
+
+While the EV vehicle was piloted by Margaret at the time of the 
+accident - no auto-pilot system, if an auto-pilot system had
+inference engaged.  The faulty driver was practicing "blind passing" 
+which was both dangerous and irresponsible and that behavior 
+is 100% of the cause.  Textbook case of "illegal lane position"
+
+If there had been a collision, between two vehicles it is important 
+from the perspective to attribute fault. 
+
+This feels like a textbook case of engineering, or explaining math
+which is never a good idea.  
+But back of napkin calculus tells us that we can calculate 
+the time between the lane change; and the drivers speed -- 
+Ms. Woodfield was using the proper signalling to the overtaken
+truck when the Geico driver was in improper lane position. 
+
+Mathematically speaking Ms. Woodfield had "infinite time" as the lead 
+vehicle to complete her passing manuever safely once she
+had moved into the lead position. "No passing in the slow lane"
+
+I prefer cellular data; it's easier to prepare a 3d video to
+demonstrate.  No version in time or space that this was not Geico
+drivers responsibility as the state regulated insurer for the 
+driver at fault.   
+
+I further maintain that not knowing the contents of the other vehicle.
+The best approach was to avoid the accident - not "plow into her"
+Internal review says no fault to Ms. Woodfield; null notation
+in employee file "it happens; let's just get it fixed".
+
+We will be working with the remaining
+parties to provide analysis and plan to pursue full remuneration the 
+accident from Geico, plus professional expenses for the analysis.
+
+3d models are expected to be rendered in another two weeks (backlog)
+
+EV is requesting Geico consent, discovery requests will be incoming.
+We will be requesting celluar GPS data from your driver for review
+and will be sending you a copy. 
+
+EV has preliminarily engaged legal counsel. It is our intention
+to work with them to demonstrate Geicos responsibility. 
+
+The approximate vehicle length of the truck and trailer 
+is:
+ * 23ft 7m tough Airstream Flying Cloud 23d carvan
+ + ~0.5m ball hitch 
+ + nissan frontier 2015 king cab (5.2m)
+ + the midpoint: ..
+    * ^^^ irrelevant; improper lane position.
+
+There is a well known blind spot in this area surrounding any 
+long vehicle, that is why the rules of the road state that passing
+must be performed in the appropriate passing lane.  
+
+This was dangerous; and could have cost my partners their lives.
+EV is committed to raising awareness about lane positions and
+improving sensor awareness "trailers with sensors" 
+in an attempt to salvage our Unit.  We are inviting Geico to
+participate and a plan is forthcoming. 
+
+This position is reinforced with driver safety warning and signage
+throughout the great state of Montana.
+
+EV maintains the position that the lane was ours according all relevant
+statutory decisions pertaining to the matter.  Geico is the primary 
+responsible party.  We are working on a salvage plan as well which 
+should be less expensive than totalling - it would be EV's preference
+to proceed with the assumption that Geico is responsible. 
+
+Sincerely,
+
+Brian A. Horakh
+CEO, Elastic.Ventures
++1 (347) 708-3850
+
+
