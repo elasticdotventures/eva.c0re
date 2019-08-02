@@ -26,36 +26,40 @@ please provide them for our review.
 Elastic.Ventures is requesting a secondary review of this case. 
 Acknowledgement of responsibility in this accident from Geico. 
 
-Your position is that your driver who:
- * admitted fault at the scene
- * was in a rental car, with a low-visible color. 
- * was cited by an officer for speeding & reckless driving. 
+Evidentiary Support for Geico Driver, as majority responsible party
+ * accepted responsibility at the scene
+ * was in a rental car, with a low-visible color. (contributing)
+ * was cited by an officer for speeding & reckless driving. (contributing)
  * was passing in, and was in an improper lane position,
-    * caused by improper passing manuevure (non-passing lane) by Geico driver
-        * another drivers passing manuever had not been completed.
-    * illegally using the gap established durings Ms. Woodfield's safe manuever
-    * passing in the truck lane 
+    * committed improper passing manuevure (non-passing lane) 
+        * following Ms. Woodfields passing manuever had not been completed.
+    * illegally attempted to use the gap established 
+        ^^^ durings Ms. Woodfield's safe manuever passing manuever
+    * driving / passing in the truck lane
         * truck lane was reserved for Ms. Woodfield and EV Airstream, etc.
         * per NTSHA road-safety "rules of the road" [Driving & Lane Position]
-        * causing the completion of Ms. Woodfields passing maneuvere
-            * before the Geico driver could legally begin
-            * as such; the time required for a safe passing manuevure
-                * would necessitate the driver had followed "passed with"
-                * and then proceeded to pass in the non-passing designated lane
-                * resulting in 'improper lane position' 
-        * which can be demonstrated by 
-            * gps, cellular data of the driver
-            * measurement of the vehicles
-                * calculus: time is  = speed (can estimate speed)
-                * Ms. Woodfield would have had "infinite time"
-                    * based on road conditions, to complete an overtake.
-                    * the moment Ms. Woodlfield assumed the passing position. 
+        * following the completion of Ms. Woodfields passing maneuvere
+    * blind passing 
+        * blind passing is never allowed, it's incredibly dangerous for this reason.
+        * Ms. Woodfield had not relinquished her position following overtake
+            * before the Geico driver could legally begin a new passing maneuvere
+            * Ms. Woodfield would need to be fully in her lane position
+            * driver was blind passing. 
+        * as such; the time required for a safe passing manuevure
+    * and then proceeded to pass in the non-passing designated lane
+        * should not have been possible at all 'improper lane position'
+    * can be verified using:
+        * gps, cellular data of the driver (we have two phones right?) 
+    * measurement of the vehicles
+        * calculus: time is  = speed (can estimate speed)
+        * Ms. Woodfield would have had "infinite time"
+            * based on road conditions, to complete an overtake.
+            * the moment Ms. Woodlfield assumed the passing position. 
 
-* tl;dr - no possible situation with this crash telemetry, using site
-measurements, that vehicles in those positions where the drivers insurance
-in the improper lane position is not responsible. Any statement to the 
-contrary is simply false or lacks those material facts / situational 
-awareness. 
+* tl;dr - no possible situation with this crash telemetry, eye witness
+statements that Geico driver in the improper lane position is responsible. 
+Any statement to the contrary is simply false or lacks those material facts 
+/ situational awareness. 
 
 So I'm suggesting that EV requests the other drivers cell phone data
 (and we provide analysis); and that Geico could, as legally be entitled
