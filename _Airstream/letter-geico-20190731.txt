@@ -1,19 +1,26 @@
-Memo RE: 
-  * (G) Geico Case #
+Memo #Airstream Crash / Beta 
+
+RE: 
+  * (G) Geico Case #042580214 0101 045
+        Attn: Region IV Claims
+        San Diego, CA. 92150-9914
+        520-546-7362
   * (P) Progressive #
   * (F) Foremost 
   * (EV) Elastic.Ventures #Airstream
+  * Megan Gann (Policy Holder)
 
-Dear Geico, 
+Dear Geico *(Daryl Hastings)
 
 Geico holds a trietary policy on the caravan, underwritten by 
-Foremost but purchased an administered through Geico.   
+Foremost but purchased an administered through Geico.
 
 Geico is also my insurance company and I am disappointed that Geico 
 is not accepting responsibility. 
 
 We are in the process of notifying the trietary insurance Foremost,
-which was sold via Geico. 
+which was sold via Geico. Foremost Truck & RV Policy ********94821
+under "Brian A. Horakh"; 30661 Valley Center Rd. Valley center, ca.
 
 As such, this letter to 
 Geico reflects some of my own thoughts as it pertains to "what 
@@ -115,7 +122,7 @@ She was signaling intent to return to the lane (with no intention
 to illegally stay in the passing lane),  achieved a safe distance 
 to return to the truck lane and then proceeded with the maneuvere.
 
-The word is "impatience". 
+The word "impatience" describes the Geico drivers intent. 
 
 In legal terms this means Ms Woodfields position was "reserved" as designated
 by the rules of the road, and relevant statuatory signage throughout
@@ -137,39 +144,53 @@ occurs due to a car being "out of position".
 The maneuvere reserved the lane for Ms. Woodfield as soon as she was in the 
 overtake position (passed the first truck).  Textbook Autonomous Driving.
 If our auto-pilot system did what their driver did; we'd absolutely
-be fault!!  accepted responsibility and was cited. 
+be fault!! Geico driver accepted responsibility and was cited. Why is 
+Geico claiming this is not their responsibility? 
 
 Vehicle and celluar data (if reviewed) will indicate that
 the faulty driver was performing an illegal passing maneuvere -- on
 the incorrect side of the road; and would indicate the vehicle
 positions. I believe witness statements about lane position also 
-concur with this.  
+concur with this. Does insurance from Geico only insure drivers when
+they are following the rules of the road? 
 
-According to this statement of fact, it would mean that if Ms. Woodfield
-had plowed into the other driver, and that
-the action chain which followed is therefore not the other drivers
-fault. [51% the primary responsible party]; so just to make that clear
-Geico only accepts responsibility if their customer gets hit, but 
-alas that is simply not accurate in any insurance context I'm aware of.
+It is EV's understanding that since their car was not hit; the accident
+is the Geico's drivers responsibility due to their improper lane position. 
 
-EV designs Autonomous systems and #human life, is very important
+According to this statement of Mr. Daryl from Geico -- it would mean that 
+if Ms. Woodfield had not aborted the maneuver, and hit the Geico driver
+resulting in a bigger problem.  Ms. Woodfields actions actually saved 
+Geico a "ton of money on car insurance" by NOT hitting the other car 
+(and generally attempting to avoid the accident) -- risking her and her 
+husbands life in the process.  EV expects future communications from 
+Geico to reflect that. 
+
+Geico should accept responsibility; re-evaluating and partner with EV
+to correct this. 
+
+EV designs AI software systems and #human life, is very important
 to us; as party of our commitment to employee safety. Attempting
 to avoid the accident is always the proper decision, and sets a 
-very dangerous precident for a future with autonomous trucks. 
-You wouldn't want us designing our software to drive like the 
-Geico driver and then NOT being held accountable? It's absurd.  
+very dangerous precident for a future with potentially very 
+aggresive autonomous trucks if they are expected to defend their
+lane positions from impatient drivers. 
+
+I'm quite certain Geico wouldn't want our friends at Tesla, StarSkyRobotics,
+etc. to design our software to drive like the Geico driver and then 
+NOT being held accountable? Go team USA! 
 
 While the EV vehicle was piloted by Ms. Woodfield/EV at the time of the 
-accident - no auto-pilot system, if an auto-pilot system had
-inference engaged.  The faulty driver was practicing "blind passing" 
+accident - no auto-pilot system engaged, if an auto-pilot system had
+inference on.  The faulty driver was practicing "blind passing" 
 which was both dangerous and irresponsible and that behavior 
-is 100% of the cause.  Textbook case of "illegal lane position"
+is 100% of the cause.  Textbook case of "illegal lane position". 
 
 If there had been a collision, between two vehicles it is important 
 from the perspective to attribute fault. 
 
 This feels like a textbook case of engineering, or explaining math
 which is never a good idea.  
+
 But back of napkin calculus tells us that we can calculate 
 the time between the lane change; and the drivers speed -- 
 Ms. Woodfield was using the proper signalling to the overtaken
@@ -235,4 +256,10 @@ Brian A. Horakh
 CEO, Elastic.Ventures
 +1 (347) 708-3850
 
+------
+EV Recovery Plans (work in progress)
+https://coda.io/d/Airstream-Trailer-Beta_dYyWzR8IMeg/Introduction_suIQp#_luj1X
+
+^^^ confidential, please execute NDA prior to access
+http://bit.ly/elasticventures-sme-NDA
 
