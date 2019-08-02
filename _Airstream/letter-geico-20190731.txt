@@ -45,16 +45,17 @@ Evidentiary Support for Geico Driver, as majority responsible party
             * before the Geico driver could legally begin a new passing maneuvere
             * Ms. Woodfield would need to be fully in her lane position
             * driver was blind passing. 
-        * as such; the time required for a safe passing manuevure
-    * and then proceeded to pass in the non-passing designated lane
-        * should not have been possible at all 'improper lane position'
+        * as a result; the safe manuever became unsafe resulting in the crash.
+        * root cause determination: 'improper lane position of Geico Driver'
     * can be verified using:
         * gps, cellular data of the driver (we have two phones right?) 
+        * google tracks that information
     * measurement of the vehicles
         * calculus: time is  = speed (can estimate speed)
+        * how big was gap?  2.5x car+trailer lengths is "recommended"
         * Ms. Woodfield would have had "infinite time"
             * based on road conditions, to complete an overtake.
-            * the moment Ms. Woodlfield assumed the passing position. 
+            * the moment Ms. Woodlfield assumed the passing position
 
 * tl;dr - no possible situation with this crash telemetry, eye witness
 statements that Geico driver in the improper lane position is responsible. 
