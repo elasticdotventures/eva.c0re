@@ -1,1 +1,18 @@
 https://github.com/Microsoft/TypeScript-Babel-Starter#readme
+
+
+https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html
+
+interface Person {
+	firstname: string;
+	lastname: string;
+}
+
+
+
+https://vuejs.org/v2/guide/typescript.html
+
+To let TypeScript properly infer types inside Vue component options, 
+yei need to define components with Vue.component or Vue.extend:
+
+

@@ -42,6 +42,9 @@ d0723 @eva #random   today, july 23rd is international sprinkles day and also in
 # business dates
 d0719 b2bcbd.us domain renewal (namecheap brianhorakh gru3hunt3r@gmail.com)
 
+# famous dates in history
+d17070415 leonhard eulers @cyclops birthday (Swiss); father of non-quantum physics, modern mathematics (roommate of Bernoulli, fluid dynamics & money utility theory)
+
 # Personal dates
 d19670714 @pokey 🎂 birthday
 d19760408 @b 🎂 birthday

@@ -44,9 +44,11 @@ module.exports = {
     })
 */
 
+
     // note: there MAY be a bug here; specifically with serverless offline
     // axios FROM BROWSER does not support gzip; looks like hapi does. 
     // https://hapijs.com/tutorials/serving-files?lang=en_US
+    // ^^^ seems to have been fixed in a later version. 
     server.route({
       method: 'GET',
       path: '/c0re/{filename}',
@@ -74,6 +76,20 @@ module.exports = {
       }
       */ 
     });
+
+server.route({
+    method: 'POST',
+    path: '/link/{pattern}',
+    options: {
+      log: { collection: true }
+    },
+    handler: {
+      // find data/ return it.
+    
+    }
+
+})
+
 
     /*
     // graphql
