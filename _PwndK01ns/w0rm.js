@@ -32,7 +32,41 @@ greens veritical are price going up
 
 */
 
-let tick = 0;   // this will eventually become part of the state table. 
+let b = {
+    tick : 0,   // this will eventually become part of the state table. 
+    usd : 0,    // points in usd
+    btc : 0     // points in btc (normalized into USD)
+}
+
+
+/*
+see "coinbase-sample.json" for some examples. 
+
+"time":"2019-08-08T10:10:35.157000Z"
+client_oid = competitor id. 
+type: "limit"
+
+"size":"0.01300000","price":"224.35000000","side":"buy"
+"type":"done","side":"sell","order_id":"ed622fed-7568-4769-b472-a86258e94c84",
+"reason":"canceled",         // reason: insufficent funds, user cancel, timed out
+
+"product_id":"BTC-USD",      // btc-usd
+"price":"11836.27000000",       // price per coin
+"remaining_size":"0.75000000",   // 
+"sequence":10477649850,      // might be used for correlating orders
+"time":"2019-08-08T10:10:35.170000Z"
+
+{
+    "type":"received",
+     "order_id":"3f00d4bb-a222-4767-9430-e58fe2aad5d7",
+     "order_type":"limit","size":"0.75000000","price":"11836.24000000",
+     "side":"sell","client_oid":"78dc33c2-b3c6-4aa3-a483-ae7918a4f149",
+     "product_id":"BTC-USD","sequence":10477649851,"time":"2019-08-08T10:10:35.178000Z"
+ }
+
+*/
+
+
 
 /*
 purpose: receive a stream of data; and populate a state table.
@@ -45,10 +79,10 @@ function handleCoinbaseProMessage(event) {
     switch( event.type ) {
        case 'subscriptions': 
            // ignore this shit. 
-           tick++;
+           b.tick++;
            break;
        case 'received': 
-            tick += 2; 
+            b.tick += 2; 
             break;
        case 'heartbeat' : 
             // 🍰 what does this do? 
@@ -62,61 +96,49 @@ function handleCoinbaseProMessage(event) {
        default:
             // this line should NEVER be reached unknown data type
             console.log('unknown tick!')
-            tick = 0; 
+            b.tick = 0; 
             break; 
     } 
 
-    if (tick % 10 == 0) { 
+    if (b.tick % 10 == 0) { 
         // slow it down to only errors.
-        console.log(`t:${tick} json: ${JSON.stringify(event)}`); 
+        console.log(`t:${b.tick} json: ${JSON.stringify(event)}`); 
     }
 
-   return(tick);
+   return(b.tick);
 }
 
+// install yargs here
+// --file xyz or defaults to coinbase. 
 
+const argv = require('yargs').argv
+if (argv.simulate) {
+    // 
+}
 
+if (argv.file) {
+    console.log(`using ${argv.file}`)
+}
+else {
+    
+    const CoinbasePro = require('coinbase-pro');
+    const publicClient = new CoinbasePro.PublicClient();
+    const websocket = new CoinbasePro.WebsocketClient(['BTC-USD', 'ETH-USD']);
 
-const CoinbasePro = require('coinbase-pro');
-const publicClient = new CoinbasePro.PublicClient();
+    // 
+    websocket.on('message', data => {
+        /* work with data  */ 
+        handleCoinbaseProMessage(data); 
+    });
+    websocket.on('error', err => {
+        /* handle error */
+        // !todo websocket.error needs love; 🍰 proper action? 
+    });
+    websocket.on('close', () => {
+        /* ... */
+        // 🍰 how do we send a kill signal? what is the handle.  sell everything? default back to ??
+    });
+}
 
-const websocket = new CoinbasePro.WebsocketClient(['BTC-USD', 'ETH-USD']);
-
-websocket.on('message', data => {
-  /* work with data 
-
-    see "coinbase-sample.json" for some examples. 
-
-   "time":"2019-08-08T10:10:35.157000Z"
-   client_oid = competitor id. 
-   type: "limit"
-
-   "size":"0.01300000","price":"224.35000000","side":"buy"
-   "type":"done","side":"sell","order_id":"ed622fed-7568-4769-b472-a86258e94c84",
-   "reason":"canceled",         // reason: insufficent funds, user cancel, timed out
-
-   "product_id":"BTC-USD",      // btc-usd
-   "price":"11836.27000000",       // price per coin
-   "remaining_size":"0.75000000",   // 
-   "sequence":10477649850,      // might be used for correlating orders
-   "time":"2019-08-08T10:10:35.170000Z"
-
-   {
-       "type":"received",
-        "order_id":"3f00d4bb-a222-4767-9430-e58fe2aad5d7",
-        "order_type":"limit","size":"0.75000000","price":"11836.24000000",
-        "side":"sell","client_oid":"78dc33c2-b3c6-4aa3-a483-ae7918a4f149",
-        "product_id":"BTC-USD","sequence":10477649851,"time":"2019-08-08T10:10:35.178000Z"
-    }
-   
-  */
-    handleCoinbaseProMessage(data); 
-});
-websocket.on('error', err => {
-  /* handle error */
-});
-websocket.on('close', () => {
-  /* ... */
-});
-
+console.log('initialized.')
 
