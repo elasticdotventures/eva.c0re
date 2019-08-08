@@ -29,20 +29,61 @@ purple dots?  are good times to sell.
 orange vertical lines indicate a downard motion
 greens veritical are price going up
 
+sell when 66% of the bots don't 
 
 */
+
+// 🦨 import is commonJS only works in browser:
+// import { Observable } from 'rxjs'
+// import { range } from 'rxjs';
+// import { map, filter } from 'rxjs/operators';
+const { Observable, range } = require('rxjs');
+const { map, filter } = require('rxjs/operators');
+
+var Redis = require("ioredis");
+var redis = new Redis();
+const hasQuorum = 2/3;   // 0.6~ the inflection point where we lose quorum on
 
 let b = {
     tick : 0,   // this will eventually become part of the state table. 
     usd : 0,    // points in usd
-    btc : 0     // points in btc (normalized into USD)
+    btc : 0,      // points in btc (normalized into USD)
+    '$redis' : redis
 }
+
+// Observable range 
+// iterates 1..200 .. puts that into x. 
+range(1, 200).pipe(
+  filter(x => x % 2 === 1),  // ever odd number
+  map(x => x + x)            // add to itself
+).subscribe(x => console.log(x)); // do something with the value. 
+
+
+// subscriber 
+const observable = new Observable(subscriber => {
+    subscriber.next(1);
+    subscriber.next(2);
+    subscriber.next(3)
+    setTimeout(() => {
+      subscriber.next(4);
+      subscriber.complete();
+    }, 1000);
+  });
+  process.exit();
+
+
+console.log('just before subscribe');
+observable.subscribe({
+  next(x) { console.log('got value ' + x); },
+  error(err) { console.error('something wrong occurred: ' + err); },
+  complete() { console.log('done'); }
+});
+console.log('just after subscribe');
 
 
 /*
 see "coinbase-sample.json" for some examples. 
 
-"time":"2019-08-08T10:10:35.157000Z"
 client_oid = competitor id. 
 type: "limit"
 
@@ -75,17 +116,22 @@ function handleCoinbaseProMessage(event) {
     // this is the activator; 
     // break it into binary state (or table)
  
+    // "time":"2019-08-08T10:10:35.157000Z"
+    // let d = new Date(event.time);
 
     switch( event.type ) {
        case 'subscriptions': 
            // ignore this shit. 
            b.tick++;
+           b.redis.zadd()
            break;
        case 'received': 
             b.tick += 2; 
+            b.redis
             break;
        case 'heartbeat' : 
-            // 🍰 what does this do? 
+            // 🍰 notification that is sent every x seconds; 
+            b.heartbeat = new Date(event.time);
             break; 
        case 'done':
             // 🍰 what does this do?  
@@ -105,16 +151,40 @@ function handleCoinbaseProMessage(event) {
         console.log(`t:${b.tick} json: ${JSON.stringify(event)}`); 
     }
 
-   return(b.tick);
+   return(b);
 }
 
 // install yargs here
 // --file xyz or defaults to coinbase. 
-
 const argv = require('yargs').argv
-if (argv.simulate) {
-    // 
+
+if (argv.test) {
+    // 🦨 not working, will load from file. 
+    const jsonfile = require('jsonfile')
+    const file = '/tmp'
+    jsonfile.readFile(file, function (err, obj) {
+        if (err) console.error(err)
+        console.dir(obj)
+    })
+
 }
+
+
+if (argv.redis) {
+ 
+    redis.set("foo", "xxx");
+    redis.get("foo", function(err, result) {
+    console.log(result);
+    });
+    redis.del("foo");
+
+    // Or using a promise if the last argument isn't a function
+    redis.get("foo").then(function(result) {
+        console.log(result);
+    });
+}
+
+
 
 if (argv.file) {
     console.log(`using ${argv.file}`)
@@ -128,7 +198,8 @@ else {
     // 
     websocket.on('message', data => {
         /* work with data  */ 
-        handleCoinbaseProMessage(data); 
+        b = handleCoinbaseProMessage(data); 
+        // process new state; through binary function? brain.js 
     });
     websocket.on('error', err => {
         /* handle error */
