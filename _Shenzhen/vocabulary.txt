@@ -1,0 +1,29 @@
+thing: dongxi
+
+resistor: 电阻    Diànzǔ
+processor: 处理器 Chǔlǐ qì 
+sensor: 传感器 Chuángǎnqì
+wire: 线 Xiàn 
+
+opportunity: 机会 Jīhuì     opportunity, chance, occasion, odds
+
+one　一 yi
+two　八 er
+three　三 san 
+four　西 si
+five　五　wu 
+six 　六 liu
+seven　七 qi
+eight　八 ba 
+nine 九 Jiǔ
+ten 十 shi
+eleven 十一  "shi yi"
+fifty 五十   Wǔshí
+hundred 百 Bǎi
+thousand 千 Qiān
+
+I 我 wo
+you 你　ni
+other　们　men
+
+Rocket 火箭 Huǒjiàn
