@@ -1,0 +1,7 @@
+snapassist
+WIN + < > arrows
+
+WIN + TAB (desktops)
+WIN + CTRL-D (new desktop)
+https://community.windows.com/en-us/videos/windows-101-multitasking-made-easy-with-snap-assist/_E8q1Swup-Y
+

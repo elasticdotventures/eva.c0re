@@ -1,0 +1,40 @@
+eva grok syntax
+
+first character is relevant
+3 spaces OR tab then a // is a comment; starting from the right side.
+   // comments are discarded.
+
+lines beginning with a space, # or * are markdown
+
+lines that begin with any amount of whitespace
+[\s\t]*^^^ are continuations of previous lines
+
+dt####### are dates
+word() are functions
+
+commands have 
+
+!!command 
+!command
+	
+	.Function1()
+	.Function2()
+	.
+
+
+
+
+
+
+
+/command
+	/topic 
+	/join 
+	/eva  (run)
+
+!command is same:same as /eva
+
+
+```eva
+```
+	

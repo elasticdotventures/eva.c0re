@@ -1,0 +1,3 @@
+notes: node, nvm, npm
+
+https://bytearcher.com/articles/using-npm-update-and-npm-outdated-to-update-dependencies/
