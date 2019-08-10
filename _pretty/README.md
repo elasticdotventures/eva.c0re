@@ -146,6 +146,8 @@ Vue developer tools (which if you’re planning to interact with the website; th
 
 
 ## Git
+* download: https://git-scm.com/download/
+
 🤓 Developed by Linus (the creator of Linux) to manage Linux open source development it has become the defacto standard for agile teams. Git is a distributed version tracking protocol used by developers. There are many git clients that use the same “git library” and git repository hosts such as github and aws codecommit.  
 🤓 Git can be powerful; but is optimized mostly for text files and especially source code.  If a binary object such as a graphic changes even a single byte the whole file is copied.
 The easiest GIT client I’ve seen is actually inside Visual Studio (i’ll link to training; on my todo list)
@@ -234,5 +236,11 @@ https://chocolatey.org/
 ```
 # WIN+x  || select Windows Power Shell (Admin)
 ```
-^^ in hindsight; chocolately isn't the best choice because so much is going to be done in WSL
-which chocolately can't interface with; so 
+🦨 in hindsight; chocolately isn't the best choice because so much is going to be done in WSL
+which chocolately can't interface with; so you can skip this.
+
+Other windows tips:
+WIN + D = new desktop
+WIN + SHIFT + arrows move between desktops
+
+

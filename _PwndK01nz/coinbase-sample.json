@@ -1,19 +1,30 @@
   {"type":"subscriptions","channels":[{"name":"full","product_ids":["BTC-USD","ETH-USD"]},{"name":"heartbeat","product_ids":["BTC-USD","ETH-USD"]}]}
 
+  // metrics
+  // txn-type per second
+  // txn-type volume; peak; low
+  //
 
-  {"type":"received",
-  "order_id":"6714570b-5cb1-4a72-9013-f8c66e135508",
-  "order_type":"limit","size":"0.01300000","price":"224.35000000","side":"buy","client_oid":"","product_id":"ETH-USD","sequence":7147163716,}
+
   {"type":"open","side":"buy","price":"224.35000000","order_id":"6714570b-5cb1-4a72-9013-f8c66e135508","remaining_size":"0.01300000","product_id":"ETH-USD","sequence":7147163717,"time":"2019-08-08T10:10:35.157000Z"}
   
   {"type":"received","order_id":"a475c41f-a70d-4cc1-9fec-6487d7ce43ed","order_type":"limit","size":"4.56500000","price":"11836.25000000","side":"sell","client_oid":"8ce7b3d4-94aa-4932-81aa-984c86387c04","product_id":"BTC-USD","sequence":10477649848,"time":"2019-08-08T10:10:35.166000Z"}
-  
   {"type":"open","side":"sell","price":"11836.25000000","order_id":"a475c41f-a70d-4cc1-9fec-6487d7ce43ed","remaining_size":"4.56500000","product_id":"BTC-USD","sequence":10477649849,"time":"2019-08-08T10:10:35.166000Z"}
   
+  // txn type-side-reason
+  // txn type-side      
+  // * received.buy
+  // * open.sell
+  // * open.buy
+  // * done.sell.cancelled.product_id
+  // * price  
+  //      
   {"type":"done","side":"sell","order_id":"ed622fed-7568-4769-b472-a86258e94c84","reason":"canceled","product_id":"BTC-USD","price":"11836.27000000","remaining_size":"0.75000000","sequence":10477649850,"time":"2019-08-08T10:10:35.170000Z"}
   {"type":"done","side":"buy","order_id":"e3f57a96-9254-4336-bd40-eb9271d3b35e","reason":"canceled","product_id":"ETH-USD","price":"224.60000000","remaining_size":"12.50000000","sequence":7147163718,"time":"2019-08-08T10:10:35.172000Z"}
+
   {"type":"received","order_id":"3f00d4bb-a222-4767-9430-e58fe2aad5d7","order_type":"limit","size":"0.75000000","price":"11836.24000000","side":"sell","client_oid":"78dc33c2-b3c6-4aa3-a483-ae7918a4f149","product_id":"BTC-USD","sequence":10477649851,"time":"2019-08-08T10:10:35.178000Z"}
   {"type":"open","side":"sell","price":"11836.24000000","order_id":"3f00d4bb-a222-4767-9430-e58fe2aad5d7","remaining_size":"0.75000000","product_id":"BTC-USD","sequence":10477649852,"time":"2019-08-08T10:10:35.178000Z"}
+
   {"type":"done","side":"sell","order_id":"a475c41f-a70d-4cc1-9fec-6487d7ce43ed","reason":"canceled","product_id":"BTC-USD","price":"11836.25000000","remaining_size":"4.56500000","sequence":10477649853,"time":"2019-08-08T10:10:35.182000Z"}
   {"type":"received","order_id":"07aadcfa-0b44-474d-819b-a7de4d871f78","order_type":"limit","size":"2.10700000","price":"11843.44000000","side":"sell","client_oid":"def3a7cb-4baf-498f-965d-1652af1ae2a5","product_id":"BTC-USD","sequence":10477649854,"time":"2019-08-08T10:10:35.205000Z"}
   {"type":"open","side":"sell","price":"11843.44000000","order_id":"07aadcfa-0b44-474d-819b-a7de4d871f78","remaining_size":"2.10700000","product_id":"BTC-USD","sequence":10477649855,"time":"2019-08-08T10:10:35.205000Z"}
