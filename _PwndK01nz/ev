@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# test command
+# jest? 
+
+# typescript compile
+# tsc --watch
+
+if [ -z "$REDIS_HOST" ] ; then  
+fi
+
