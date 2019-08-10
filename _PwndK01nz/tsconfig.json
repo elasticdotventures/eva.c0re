@@ -1,5 +1,7 @@
 {
-
+  // 💀 RTFM
+  // https://kulshekhar.github.io/ts-jest/user/config/
+  // 
   "compilerOptions": {
 
     // Target latest version of ECMAScript.
@@ -12,7 +14,8 @@
     "moduleResolution": "node",
 
     // Process & infer types from .js files.
-
+    // note: default is 'true'
+    // 👇 but may impact -- https://kulshekhar.github.io/ts-jest/user/config/
     "allowJs": true,
 
     // Don't emit; allow Babel to transform files.

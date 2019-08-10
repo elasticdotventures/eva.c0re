@@ -33,10 +33,10 @@ class CoinBase {
 
     constructor() {
      //   this.$brain = Brain; 
+        
     }
 }
 
-let coinbase = new CoinBase();
 
 /*
 class Greeter {
