@@ -37,6 +37,7 @@ class CoinBase {
     }
 }
 
+let coinbase = new CoinBase();
 
 /*
 class Greeter {

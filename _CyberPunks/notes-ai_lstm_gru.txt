@@ -1,0 +1,8 @@
+https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
+
+bitcoin trading bot (siraj)
+https://www.youtube.com/watch?v=F2f98pNj99k
+
+https://github.com/llSourcell/Bitcoin_Trading_Bot
+
+

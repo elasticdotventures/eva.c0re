@@ -1,0 +1,15 @@
+
+Fuse4js provides Javascript bindings to the FUSE subsystem of Linux. It enables you to develop user-space file systems with node.js.
+
+
+https://github.com/bcle/fuse4js
+
+sudo apt-get install libfuse-dev
+
+node fuse4js/example/jsonFS.js fuse4js/example/sample.json /tmp/tutorial/mnt
+
+
+https://github.com/dokan-dev/dokany
+https://www.npmjs.com/package/fuse-native
+
+

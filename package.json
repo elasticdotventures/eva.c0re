@@ -5,10 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "apollo-server-hapi": "^2.6.1",
+    "fuse-bindings": "^2.11.2",
     "glob": "^7.1.4",
     "graphql": "^14.3.1",
     "openapi-backend": "^2.3.4",
-    "serverless-offline": "^4.10.6",
+    "serverless-offline": "^4.10.6"
   },
   "devDependencies": {},
   "scripts": {

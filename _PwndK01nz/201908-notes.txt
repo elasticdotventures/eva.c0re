@@ -1,0 +1,61 @@
+vpn-notes
+20190810
+
+https://docs.aws.amazon.com/vpn/latest/clientvpn-user/windows.html
+
+https://medium.com/@tatianaensslin/how-to-create-a-free-personal-vpn-in-the-cloud-using-ec2-openvpn-626c40e96dab
+https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether
+https://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/3.Android_L2TP_Client_Setup
+
+https://aws.amazon.com/marketplace/pp/B00MI40CAE/ref=mkt_wir_openvpn_byol
+https://docs.aws.amazon.com/vpn/latest/clientvpn-user/windows.html
+https://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/2.Remote_Access_VPN_to_LAN
+
+https://github.com/dokan-dev/dokany
+
+--- microsoft
+https://github.com/Microsoft/BotBuilder-Samples/blob/master/README.md
+https://docs.microsoft.com/en-us/azure/bot-service/javascript/bot-builder-javascript-quickstart?view=azure-bot-service-4.0
+
+-- typescript/classes
+https://channel9.msdn.com/Events/Build/2017/B8088
+https://www.typescriptlang.org/index.html#download-links
+https://code.visualstudio.com/docs/typescript/typescript-tutorial
+https://devblogs.microsoft.com/typescript/typescript-and-babel-7/
+http://pm2.keymetrics.io/docs/usage/quick-start/
+https://www.tutorialspoint.com/typescript/typescript_classes
+
+
+--- redis
+
+https://redis.io/commands/zrevrangebylex
+https://redis.io/commands/hexists
+https://redislabs.com/redis-best-practices/time-series/time-series-bitfields/
+
+https://github.com/coinbase/coinbase-pro-node
+https://adrianmejia.com/getting-started-with-node-js-modules-require-exports-imports-npm-and-beyond/
+
+
+--- vuex:
+https://scrimba.com/p/pnyzgAP/cqKK4psq
+https://medium.com/dailyjs/mastering-vuex-zero-to-hero-e0ca1f421d45
+
+
+--- todo:
+
+https://github.com/digital-sailors/standard-redirects-for-cloudfront
+https://github.com/amsik/liquor-tree
+https://www.npmjs.com/package/ioredis
+
+https://github.com/vuejs/vue-rx
+https://vuejs.org/v2/guide/events.html
+https://rxjs-dev.firebaseapp.com/guide/observable
+https://www.learnrxjs.io/operators/creation/create.html
+https://www.npmjs.com/package/rxjs
+https://www.npmjs.com/package/coinbase-pro
+https://en.wikipedia.org/wiki/Golden_ratio
+
+---
+https://www.nativescript.org/blog/nativescript-vue-with-class-components
+https://www.npmtrends.com/machina-vs-stately.js-vs-statemachines-vs-xstate
+https://www.youtube.com/watch?v=VU1NKX6Qkxc
